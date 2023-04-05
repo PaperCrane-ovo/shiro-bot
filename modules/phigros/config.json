@@ -1,0 +1,9 @@
+{
+    // phigros 指令前缀
+    "pgr_prefix": [
+        "p",
+        "P",
+        "phigros",
+        "//"
+    ]
+}

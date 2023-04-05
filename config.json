@@ -1,0 +1,4 @@
+{
+    // bot 指令前綴
+    "instr_prefix": "#"
+}
