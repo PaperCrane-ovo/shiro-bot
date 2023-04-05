@@ -12,7 +12,7 @@ class User:
     '''
     file_path = __file__.replace("user.py", "users.json")
 
-    def __init__(self, qq: int, username: str, session_token: str):
+    def __init__(self, qq: int, username: str, session_token: str, rks: float = 0.0):
         '''
         初始化用户类
 
@@ -96,7 +96,8 @@ class User:
 
         return '更新成功'
 
-    def get_user(self, qq: int):
+    @classmethod
+    def get_user(cls, qq: int):
         '''
         从json文件中获取用户信息
 
@@ -115,5 +116,5 @@ class User:
 
         assert isinstance(user_dict, dict)
         if str(qq) in user_dict:
-            return user_dict[str(qq)]
+            return cls(qq, user_dict[str(qq)]["username"], user_dict[str(qq)]["token"], user_dict[str(qq)]["rks"])
         return None
