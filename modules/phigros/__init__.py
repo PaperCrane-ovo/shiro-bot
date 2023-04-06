@@ -2,10 +2,11 @@
 
 
 from os.path import dirname
-import json5
 import shlex
 from typing import Annotated
 from datetime import datetime
+import json5
+
 from graia.saya.builtins.broadcast.schema import ListenerSchema
 from graia.saya import Channel
 from graia.ariadne.model import Group, Member
@@ -46,7 +47,7 @@ prefix = list(set(prefix))
 async def phigros(bot: Ariadne,
                   group: Group,
                   member: Member,
-                  message: Annotated[MessageChain, DetectPrefix('//')],
+                  message: Annotated[MessageChain, DetectPrefix(prefix)],
                   message_type: GroupMessage | TempMessage,
                   source: Source):
     '''
