@@ -1,7 +1,7 @@
 '''Phigros模块的score子模块,用于调用api并返回可读数据.'''
 
-from phigros.pgrapi import PhigrosUnlimitedAPI
-from phigros.user import User
+from .pgrapi import PhigrosUnlimitedAPI
+from .user import User
 
 
 class Phigros:  # [too-few-public-methods]
@@ -51,14 +51,12 @@ class Phigros:  # [too-few-public-methods]
 
         best_list = content['best_list']['best']  # type: list
         if content['best_list']['phi']:
-            return_value += f"最高收歌为:{best_list[0]['songname']}({best_list[0]['level']})\
-                            ,定数{best_list[0]['rating']}\n\n"
+            return_value += f"最高收歌为:{best_list[0]['songname']}({best_list[0]['level']}),定数{best_list[0]['rating']}\n\n"
             best_list = best_list[1:]
         return_value += "b19数据如下:\n\n"
         count = 1
         for best in best_list:
-            return_value += f"{count}. {best['songname']}({best['level']}),定数:{best['rating']},\
-                            acc:{best['acc']},单曲rks:{best['rks']}\n"
+            return_value += f"{count}. {best['songname']}({best['level']}),定数:{best['rating']},acc:{best['acc']},单曲rks:{best['rks']}\n"
             count += 1
 
         return return_value
