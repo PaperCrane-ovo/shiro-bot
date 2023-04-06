@@ -1,16 +1,23 @@
 '''__init__.py的函数实现.'''
 from datetime import datetime
 import shlex
-from graia.ariadne.entry import Ariadne, Group, Member, MessageChain, GroupMessage, TempMessage, Source, ForwardNode, Forward
+from typing import Annotated
+from graia.ariadne.entry import Ariadne, Group, Member, MessageChain, GroupMessage, TempMessage, Source, ForwardNode, Forward, DetectPrefix
+from graia.saya import Channel
+from graia.saya.builtins.broadcast.schema import ListenerSchema
 from . import User, Phigros
+from .prefix import prefix
 # saya的模块导入只对__init__.py有效,所以在之前的版本中将所有的函数都放在__init__.py中.
 # 简化版
 
+channel = Channel.current()
 
+
+@channel.use(ListenerSchema(listening_events=[GroupMessage, TempMessage]))
 async def main_phigros(bot: Ariadne,
                        group: Group,
                        member: Member,
-                       message: MessageChain,
+                       message: Annotated[MessageChain, DetectPrefix(prefix)],
                        message_type: GroupMessage | TempMessage,
                        source: Source):
     '''

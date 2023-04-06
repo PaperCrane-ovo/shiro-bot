@@ -1,6 +1,7 @@
 '''shiro bot管理模块,负责对bot的底层管理.'''
 from os.path import dirname
 from graia.ariadne.entry import *
+from typing import Annotated
 from graia.saya import Saya, Channel
 from graia.saya.builtins.broadcast.schema import ListenerSchema
 import json5
@@ -12,14 +13,17 @@ with open(f'{dir_name}/../../config.json', 'r', encoding='utf-8') as f:
     config = json5.load(f)
 bot_prefix = config['instr_prefix']  # type: ignore
 
+channel.name('manager')
+channel.description('shiro bot管理模块,负责对bot的底层管理.')
+channel.author('crane')
+
 
 @channel.use(
     ListenerSchema(
         listening_events=[FriendMessage],
-        decorators=[DetectPrefix(bot_prefix+'重载模块')],
     )
 )
-async def reload_modules(bot: Ariadne, friend: Friend, message_chain: MessageChain, source: Source):
+async def reload_modules(bot: Ariadne, friend: Friend, message_chain: Annotated[MessageChain, DetectPrefix(bot_prefix+'重载模组')], source: Source):
     '''
     重载模块
 
@@ -36,6 +40,8 @@ async def reload_modules(bot: Ariadne, friend: Friend, message_chain: MessageCha
     if friend.id not in admins:
         return await bot.send_friend_message(friend, MessageChain("您没有权限执行此操作,只有超级管理员可以哦"), quote=source)
     channel_path = str(message_chain)
+    channel_path = 'modules.'+channel_path
+
     if not (_channel := saya.channels.get(channel_path)):
         return await bot.send_friend_message(friend, MessageChain("该模组未安装, 您可能需要安装它"), quote=source)
     try:
