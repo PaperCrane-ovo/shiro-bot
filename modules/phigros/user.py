@@ -1,7 +1,6 @@
 '''phigros 用户类,包含用户昵称,session-token'''
 
 import json5
-from .pgrapi import PhigrosUnlimitedAPI
 
 
 class User:
