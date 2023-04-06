@@ -3,7 +3,11 @@
     "pgr_prefix": [
         "p",
         "P",
-        "phigros",
+        "pgr",
         "//"
+    ],
+    // phigros builtin指令
+    "pgr_builtins":[
+        
     ]
 }

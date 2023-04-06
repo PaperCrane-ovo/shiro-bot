@@ -22,7 +22,7 @@ class Phigros:  # [too-few-public-methods]
         self.api = PhigrosUnlimitedAPI()
         self.user = user
 
-    async def best19(self, overflow: int = 0):
+    async def best19(self, overflow: int = 0) -> str:
         '''
         获取用户b19数据
 

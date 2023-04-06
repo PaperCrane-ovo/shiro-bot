@@ -51,6 +51,9 @@ class User:
         '''
         将用户信息写入json文件
 
+        Returns:
+            注册成功或失败的信息
+
         '''
         try:
             with open(User.file_path, "r", encoding="utf-8") as f:
@@ -80,6 +83,10 @@ class User:
         '''
         更新用户信息
 
+
+        Returns:
+            更新成功或失败的信息
+
         '''
         try:
             with open(User.file_path, "r", encoding="utf-8") as f:
@@ -94,7 +101,7 @@ class User:
         with open(User.file_path, "w", encoding="utf-8") as f:
             f.write(json5.dumps(user_dict))
 
-        return '更新成功'
+        return '更新信息成功'
 
     @classmethod
     def get_user(cls, qq: int):

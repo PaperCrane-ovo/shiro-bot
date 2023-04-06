@@ -8,9 +8,13 @@ from graia.ariadne.connection.config import (
     config,
 )
 from graia.saya import Saya
+from arclet.alconna.graia.saya import AlconnaBehaviour, AlconnaSchema
+from arclet.alconna.graia import Match, AlconnaDispatcher
+from arclet.alconna import Alconna
 
 
 saya = create(Saya)
+create(AlconnaBehaviour)
 
 bot = Ariadne(
     connection=config(
@@ -24,5 +28,6 @@ bot = Ariadne(
 with saya.module_context():
     for module in pkgutil.iter_modules(['modules']):
         saya.require(f'modules.{module.name}')
+
 
 bot.launch_blocking()
