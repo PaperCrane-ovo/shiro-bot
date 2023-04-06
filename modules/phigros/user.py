@@ -25,7 +25,7 @@ class User:
         self.username = username
         self.qq = str(qq)
         self.session_token = session_token
-        self.rks = 0.0
+        self.rks = rks
 
     def dump2json(self):
         '''
