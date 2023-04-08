@@ -24,7 +24,7 @@ class Phigros:  # [too-few-public-methods]
 
     async def best19(self, overflow: int = 0) -> str:
         '''
-        获取用户b19数据
+        获取用户b19数据,同时更新用户信息
 
         Parameters:
             overflow: 0:不显示溢出数据,溢出数据作为推分指导

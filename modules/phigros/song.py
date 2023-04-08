@@ -62,7 +62,7 @@ class Song:
 if __name__ == '__main__':
     illus_dir = os.path.dirname(__file__)+"/phigros曲绘"
     with open(os.path.dirname(__file__)+'/song.json', 'r', encoding='utf-8') as f:
-        song_info = json5.load(f)['songs']
+        song_info = json5.load(f)['songs']  # type: ignore
     for song in song_info:
         if not os.path.exists(illus_dir+'/'+song['img_path']):
             print(song['img_path'])

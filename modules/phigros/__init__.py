@@ -24,17 +24,5 @@ channel.name('phigros')
 channel.description('phigros相关功能')
 channel.author('crane')
 
-# saya监听器只能打在__init__.py里面，所以这里只能写一个监听器，然后把其他的函数放在main.py里面
-
-
-@channel.use(ListenerSchema(listening_events=[GroupMessage, TempMessage]))
-async def phigros(app: Ariadne,
-                  group: Group,
-                  member: Member,
-                  message: Annotated[MessageChain, DetectPrefix(prefix)],
-                  message_type: GroupMessage | TempMessage,
-                  source: Source):
-    '''phigros相关功能'''
-    return await main_phigros(app, group, member, message, message_type, source)
 
 __author__ = 'crane'

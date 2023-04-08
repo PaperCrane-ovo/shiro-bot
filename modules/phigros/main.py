@@ -3,20 +3,23 @@ from datetime import datetime
 import shlex
 from typing import Annotated
 import json5
-from graia.ariadne.entry import Ariadne, Group, Member, MessageChain, GroupMessage, TempMessage, Source, ForwardNode, Forward, DetectPrefix
+from graia.ariadne.entry import Ariadne, Group, Member, MessageChain, GroupMessage, TempMessage, Source, ForwardNode, Forward, DetectPrefix, Image
 from graia.saya import Channel
 from graia.saya.builtins.broadcast.schema import ListenerSchema
 from . import User, Phigros
-from .variable import prefix, dir_name, game_info
+from .variable import prefix, dir_name
 
 
 # saya的模块导入只对__init__.py有效,所以在之前的版本中将所有的函数都放在__init__.py中.
 # 简化版
+# TODO: 重构
 
 channel = Channel.current()
+with open(dir_name + '/data/song.json', 'r', encoding='utf-8') as song_file:
+    song_info = json5.load(song_file)['song']  # type: ignore
 
-with open(f'{dir_name}/GameInformation.json', 'r', encoding='utf-8') as f:
-    GameInformation = json5.load(f)
+with open(dir_name + '/data/aichan.json', 'r', encoding='utf-8') as ai_chan_file:
+    ai_chan_template = json5.load(ai_chan_file)['template']  # type: ignore
 
 
 @channel.use(ListenerSchema(listening_events=[GroupMessage, TempMessage]))
@@ -95,8 +98,49 @@ async def main_phigros(bot: Ariadne,
                     name='真白鹤甜甜'
                 )
                 if isinstance(message_type, GroupMessage):
-                    await bot.send_group_message(group, MessageChain(Forward([forward])))
+                    return await bot.send_group_message(group, MessageChain(Forward([forward])))
 
         case 'song':
             # 获取歌曲信息
             pass
+            # 需要等到把别名系统写完才能写
+        case 'rd':
+            # 随机一首歌
+            not_forward = False
+            use_image = False
+            if '--nf' in args:
+                args.remove('--nf')
+                not_forward = True
+            if '--img' in args:
+                args.remove('--img')
+                use_image = True
+            if len(args) == 0 or args[0] == 'aichan':
+                ai_template, song = random_song_aichan()
+                if use_image:
+                    message_chain = MessageChain(
+                        [Image(path=dir_name + '/phigros曲绘/' +
+                               song['img_path']), ai_template]
+                    )
+                else:
+                    message_chain = MessageChain([ai_template])
+
+                if not not_forward:
+                    forward = ForwardNode(
+                        target=bot.account,
+                        time=datetime.now(),
+                        message=message_chain,
+                        name='真白鹤甜甜AI酱哒'
+                    )
+                    message_chain = MessageChain(Forward([forward]))
+                if isinstance(message_type, GroupMessage):
+                    await bot.send_group_message(group, message_chain)
+
+
+def random_song_aichan():
+    '''随机一首歌'''
+    from random import choice
+    song = choice(song_info)
+    template = choice(ai_chan_template)
+    template_str = template.replace(
+        r'{歌曲名称}', song['song_name']).replace(r'{作曲家}', song['composer'])
+    return template_str, song
