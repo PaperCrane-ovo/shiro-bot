@@ -22,7 +22,8 @@ class Song:
         for _, songs in cls.song_info.items():
             for song in songs:
                 cls(song['songsId'], cnt, song['songsName'], song['difficulty'],
-                    song['levels'], song['composer'], song['illustrator'], song['charter'])
+                    song['levels'], song['composer'], song['illustrator'], song['charter'],
+                    song['alias'])
                 cnt += 1
 
     def __init__(self,
@@ -33,7 +34,8 @@ class Song:
                  level,
                  composer,
                  illustrator,
-                 charter):
+                 charter,
+                 alias):
         '''初始化歌曲类'''
         self.song_number = song_number
         self.song_id = song_id
@@ -44,6 +46,7 @@ class Song:
         self.illustrator = illustrator
         self.chapter = charter
         self.img_path = f'{str(song_number)+"_"+song_name.replace(" ", "")}.png'
+        self.alias = alias
         Song.instances[song_id] = self
 
     def __str__(self):
