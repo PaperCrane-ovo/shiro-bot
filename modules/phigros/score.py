@@ -24,7 +24,7 @@ class Phigros:  # [too-few-public-methods]
 
     async def best19(self, overflow: int = 0) -> str:
         '''
-        获取用户b19数据
+        获取用户b19数据,同时更新用户信息
 
         Parameters:
             overflow: 0:不显示溢出数据,溢出数据作为推分指导
@@ -48,6 +48,10 @@ class Phigros:  # [too-few-public-methods]
         return_value = f"玩家:{content['PlayerID']}的游戏数据如下:\n\n"
         return_value += f"RankingScore:{content['RankingScore']}\n"
         return_value += f"课题模式成绩:{challenge_mode[challenge_score[0]]}{challenge_score[1:]}\n\n"
+        # 更新玩家信息
+        self.user.username = content['PlayerID']
+        self.user.rks = content['RankingScore']
+        self.user.update_user_info()
 
         best_list = content['best_list']['best']  # type: list
         if content['best_list']['phi']:

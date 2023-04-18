@@ -1,7 +1,7 @@
 '''phigros 用户类,包含用户昵称,session-token'''
 
 import json5
-from .pgrapi import PhigrosUnlimitedAPI
+from os.path import dirname
 
 
 class User:
@@ -10,7 +10,7 @@ class User:
 
     包含用户昵称,qq,session-token,rks
     '''
-    file_path = __file__.replace("user.py", "users.json")
+    file_path = dirname(__file__) + '/data/users.json'
 
     def __init__(self, qq: int, username: str, session_token: str, rks: float = 0.0):
         '''
@@ -25,7 +25,7 @@ class User:
         self.username = username
         self.qq = str(qq)
         self.session_token = session_token
-        self.rks = 0.0
+        self.rks = rks
 
     def dump2json(self):
         '''
