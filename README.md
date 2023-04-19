@@ -6,7 +6,13 @@
 
 
 ## 部署
-`pip install -r requirements.txt`
+`pip install -r requirements.txt`  
+
+
+为了部分数据及隐私保护,phigros模块下的api和api_key需要自行解决,以及main.py中的qq账号也未公开(其实看历史是能看到的).我采用了keyring,你的设备上应该没有这个信息.
+
+
+部分资源也没有公开.所以本仓库并不是开箱即用,仅为学习用.部署出问题不要来找我(bushi),毕竟这么烂的代码肯定也没有读下去的必要.
 
 ## TODO
 - phigros 模块
