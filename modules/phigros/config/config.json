@@ -1,13 +1,11 @@
 {
     // phigros 指令前缀
     "pgr_prefix": [
-        "p",
+        /* "p",
         "P",
-        "pgr",
+        "pgr", */
         "//"
     ],
     // phigros builtin指令
-    "pgr_builtins":[
-        
-    ]
+    "pgr_builtins": []
 }

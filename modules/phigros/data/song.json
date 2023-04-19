@@ -89,7 +89,7 @@
                 "Catcats & 百九十八",
                 ""
             ],
-            "alias": ["Hikari", "送人头光", "光"],
+            "alias": ["送人头光", "hikari", "光"],
             "img_path": "6_光.png"
         },
         {
@@ -106,7 +106,7 @@
                 "百九十八",
                 ""
             ],
-            "alias": ["冬方块", "↑↓", "哲学", "冬块"],
+            "alias": ["↑↓", "哲学", "冬块", "冬方块"],
             "img_path": "7_Winter↑cube↓.png"
         },
         {
@@ -147,7 +147,7 @@
                 "AUTO. SHOOTER. fixed by Ctymax",
                 ""
             ],
-            "alias": ["福利自动射", "脑裂", "FAS"],
+            "alias": ["fas", "福利自动射", "脑裂"],
             "img_path": "10_FULiAUTOSHOOTER.png"
         },
         {
@@ -171,7 +171,7 @@
             "composer": "Bluewind",
             "illustrator": "老张",
             "charter": ["阿爽", "阿爽", "晨 vs. 阿爽", ""],
-            "alias": ["[PRAW]", "praw", "PRAW"],
+            "alias": ["praw", "[praw]"],
             "img_path": "12_[PRAW].png"
         },
         {
@@ -183,7 +183,7 @@
             "composer": "Normal1zer",
             "illustrator": "艾是Abby",
             "charter": ["阿爽", "阿爽", "NerSAN", ""],
-            "alias": ["像素", "像素人", "三兄弟"],
+            "alias": ["三兄弟", "像素人", "像素"],
             "img_path": "13_PixelRebelz.png"
         },
         {
@@ -212,7 +212,7 @@
                 "分化者 fixed by Barbarianerman",
                 ""
             ],
-            "alias": ["nmr", "NMR", "震楼机", "没旋律"],
+            "alias": ["震楼机", "没旋律", "nmr"],
             "img_path": "15_Non-MelodicRagez(MUGEdit).png"
         },
         {
@@ -236,7 +236,7 @@
             "composer": "Antistar feat. Ctymax",
             "illustrator": "xperz",
             "charter": ["M3d1uM", "M3d1uM", "JKy", ""],
-            "alias": ["课堂记忆", "交互课堂", "交互课堂"],
+            "alias": ["课堂记忆", "交互课堂"],
             "img_path": "17_ClassMemories.png"
         },
         {
@@ -277,7 +277,7 @@
             "composer": "Tanchiky",
             "illustrator": "Karameru",
             "charter": ["Su1fuR", "Su1fuR", "B B M pow", "", "Ctymax vs 阿爽 "],
-            "alias": ["esm", "ESM", "esm跑"],
+            "alias": ["esm跑", "esm"],
             "img_path": "20_ENERGYSYNERGYMATRIX.png"
         },
         {
@@ -354,7 +354,7 @@
                 "無極☆雷鳴 ~ ♫死の序曲♫",
                 "無極☆雷鳴 ~ ♫死の序曲♫"
             ],
-            "alias": ["痉挛", "大哥上楼梯", "粉色异瞳双马尾", "粉毛异瞳双马尾"],
+            "alias": ["大哥上楼梯", "痉挛", "粉色异瞳双马尾", "粉毛异瞳双马尾"],
             "img_path": "26_Spasmodic.png"
         },
         {
@@ -371,7 +371,7 @@
                 "亚树见希子 & 百九十八",
                 ""
             ],
-            "alias": ["lab", "LAB", "all"],
+            "alias": ["all", "lab"],
             "img_path": "27_LeaveAllBehind.png"
         },
         {
@@ -424,7 +424,7 @@
             "composer": "MYUKKE.",
             "illustrator": "青鸟",
             "charter": ["Ctymax", "晨", "晨 vs. Ctymax", ""],
-            "alias": ["NOYM", "没一个男的", "没一个是人"],
+            "alias": ["noym", "没一个男的", "没一个是人"],
             "img_path": "31_NOONEYESMAN.png"
         },
         {
@@ -504,7 +504,7 @@
             "composer": "P4koo",
             "illustrator": "青鸟",
             "charter": ["晨 vs. XMT小咩兔", "晨 vs. XMT小咩兔", "NerSAN", ""],
-            "alias": ["时隙", "NOT", "not"],
+            "alias": ["时隙", "not"],
             "img_path": "36_NickofTime.png"
         },
         {
@@ -533,7 +533,7 @@
                 "NerSAN vs. 阿爽 『Collapse』",
                 ""
             ],
-            "alias": ["李斯特", "时溃", "李老头", "时崩", "钟", "李斯特的钟"],
+            "alias": ["时崩", "时溃", "李斯特的钟", "李斯特", "钟", "李老头"],
             "img_path": "38_ChronosCollapse-LaCampanella.png"
         },
         {
@@ -552,11 +552,11 @@
             ],
             "alias": [
                 "猫娘",
-                "最难魔王曲",
-                "rr",
+                "rrhar'il",
                 "狗娘",
                 "新手教程",
-                "Rrhar'il"
+                "最难魔王曲",
+                "rr"
             ],
             "img_path": "39_Rrhar'il.png"
         },
@@ -569,7 +569,7 @@
             "composer": "LeaF",
             "illustrator": "海产",
             "charter": ["Lumiere", "Lumiere", "Gausbon", ""],
-            "alias": ["二重身", "砸瓦鲁多"],
+            "alias": ["砸瓦鲁多", "二重身"],
             "img_path": "40_Doppelganger.png"
         },
         {
@@ -587,16 +587,16 @@
                 "阿爽"
             ],
             "alias": [
-                "mopemope",
-                "小花",
-                "儿童邪典",
-                "儿童鞋垫",
-                "毛八毛八",
                 "老八卖花",
-                "儿歌",
-                "もペもペ",
                 "蜜雪冰城",
+                "毛八毛八",
+                "mopemope",
+                "もペもペ",
+                "儿歌",
                 "老八老八",
+                "儿童鞋垫",
+                "儿童邪典",
+                "小花",
                 "儿童金曲"
             ],
             "img_path": "41_もぺもぺ.png"
@@ -683,7 +683,7 @@
                 "阿爽",
                 "NerSAN & 百九十八"
             ],
-            "alias": ["大逼斗", "分贝娃娃", "分贝玩偶", "魔王"],
+            "alias": ["分贝玩偶", "分贝娃娃", "大逼斗", "魔王"],
             "img_path": "46_dBdoll.png"
         },
         {
@@ -891,7 +891,7 @@
                 "Burn Full Catcats VS Ctymatch Girl",
                 ""
             ],
-            "alias": ["烤全鸭", "烤全押", "烤全鸭", "考全押", "烤全押", "烤鸭"],
+            "alias": ["考全押", "烤全押", "烤鸭", "烤全鸭"],
             "img_path": "60_Burn.png"
         },
         {
@@ -910,13 +910,13 @@
                 "阿爽 VS Arenn Saki"
             ],
             "alias": [
-                "数学课堂",
-                "A0",
+                "a0",
                 "阿列夫零",
-                "Aleph-0",
+                "א-0",
+                "aleph-0",
+                "leaf的数学课堂",
                 "ℵ-0",
-                "Leaf的数学课堂",
-                "א-0"
+                "数学课堂"
             ],
             "img_path": "61_Aleph-0.png"
         },
@@ -951,7 +951,7 @@
                 "阿爽 vs. Ctymax -Haose 垃圾-",
                 ""
             ],
-            "alias": ["垃圾", "垃圾分类", "你是什么垃圾"],
+            "alias": ["垃圾", "你是什么垃圾", "垃圾分类"],
             "img_path": "63_RubbishSorting.png"
         },
         {
@@ -999,7 +999,7 @@
             "composer": "lixound",
             "illustrator": "Xquid",
             "charter": ["Su1fuR", "Su1fuR", "百九十八", "", "Catcats"],
-            "alias": ["bttb", "BTTB"],
+            "alias": ["bttb"],
             "img_path": "67_BreakThroughTheBarrier.png"
         },
         {
@@ -1011,7 +1011,7 @@
             "composer": "黒皇帝",
             "illustrator": "Sand",
             "charter": ["Uvernight", "Uvernight", "Gausbon", ""],
-            "alias": ["黑皇帝", "时停"],
+            "alias": ["时停", "黑皇帝"],
             "img_path": "68_Chronostasis.png"
         },
         {
@@ -1117,7 +1117,7 @@
             "composer": "WyvernP feat. Madol",
             "illustrator": "GAMEBAKA",
             "charter": ["Jeitie", "Jeitie", "Jeitie", ""],
-            "alias": ["白屏", "u盘", "U盘", "歌剧院", "结束了吗"],
+            "alias": ["结束了吗", "歌剧院", "u盘", "白屏"],
             "img_path": "76_Palescreen.png"
         },
         {
@@ -1129,7 +1129,7 @@
             "composer": "EBIMAYO",
             "illustrator": "Ctymax feat. EBIMAYO",
             "charter": ["百九十八", "百九十八", "百九十八", ""],
-            "alias": ["良锤", "好锤子", "丫口"],
+            "alias": ["好锤子", "良锤", "丫口"],
             "img_path": "77_GOODTEK.png"
         },
         {
@@ -1194,7 +1194,7 @@
             "composer": "Paul Bazooka",
             "illustrator": "START SEED",
             "charter": ["百九十八", "百九十八", "百九十八", ""],
-            "alias": ["吃山者", "食山者", "世吞", "吃山人"],
+            "alias": ["世吞", "吃山人", "吃山者", "食山者"],
             "img_path": "82_TheMountainEater.png"
         },
         {
@@ -1230,7 +1230,7 @@
             "composer": "Tetrajectory",
             "illustrator": "青鸟",
             "charter": ["HaraKuma", "HaraKuma", "HaraKuma", ""],
-            "alias": ["平行衰退", "PR"],
+            "alias": ["pr", "平行衰退"],
             "img_path": "85_ParallelRetrogression(GameVer.).png"
         },
         {
@@ -1271,7 +1271,7 @@
                 "Bσrbσriσn∑rmσn.∑x∑",
                 ""
             ],
-            "alias": ["σ", "Σ", "死个妈", "∑", "死个马"],
+            "alias": ["σ", "∑", "死个马", "死个妈"],
             "img_path": "88_SIGMA.png"
         },
         {
@@ -1288,7 +1288,7 @@
                 "Two skunks (Ctymax and 晨) in Africa shouting WAHHHHHH!",
                 ""
             ],
-            "alias": ["非洲酋长", "非洲土嗨", "上海的自行车", "王姥姥"],
+            "alias": ["非洲酋长", "非洲土嗨", "王姥姥", "上海的自行车"],
             "img_path": "89_HardcoreKwaya.png"
         },
         {
@@ -1305,7 +1305,7 @@
                 "Barbarianerman vs. Snorkel",
                 ""
             ],
-            "alias": ["Äventyr"],
+            "alias": ["äventyr"],
             "img_path": "90_Äventyr.png"
         },
         {
@@ -1322,7 +1322,7 @@
                 "Barbarianerman",
                 ""
             ],
-            "alias": ["眼泪", "Träne"],
+            "alias": ["眼泪", "träne"],
             "img_path": "91_Träne.png"
         },
         {
@@ -1334,7 +1334,7 @@
             "composer": "A-39",
             "illustrator": "犀牛坨动画工坊",
             "charter": ["Merry xmAS", "Merry ChristymAxS", "N\\erry Xmas", ""],
-            "alias": ["圣诞机关枪", "雪崩"],
+            "alias": ["雪崩", "圣诞机关枪"],
             "img_path": "92_雪降り、メリクリ.png"
         },
         {
@@ -1351,7 +1351,7 @@
                 "Eastern Ailuropoda Gang",
                 ""
             ],
-            "alias": ["脑连接", "cc"],
+            "alias": ["cc", "脑连接"],
             "img_path": "93_CervelleConnexion.png"
         },
         {
@@ -1469,7 +1469,7 @@
             "composer": "ルゼ",
             "illustrator": "A-Zero Project",
             "charter": ["NerSAN", "NerSAN", "縱連打の信者☆無極", ""],
-            "alias": ["bga", "BGA", "无极烤串", "纵连打"],
+            "alias": ["bga", "纵连打", "无极烤串"],
             "img_path": "102_BetterGraphicAnimation.png"
         },
         {
@@ -1515,7 +1515,7 @@
                 "Gausbon",
                 "百九十八 feat. NerSAN"
             ],
-            "alias": ["火神", "古神", "火球", "克图格亚", "🐍🐳"],
+            "alias": ["火神", "火球", "🐍🐳", "克图格亚", "古神"],
             "img_path": "105_Cthugha.png"
         },
         {
@@ -1544,7 +1544,7 @@
                 "Barbarianerman vs. HaraKuma",
                 ""
             ],
-            "alias": ["UT"],
+            "alias": ["ut"],
             "img_path": "107_UnorthodoxThoughts.png"
         },
         {
@@ -1616,7 +1616,7 @@
             "composer": "Zris",
             "illustrator": "Eridani",
             "charter": ["Alloces", "NerSAN", "Snorkel vs. NerSAN", ""],
-            "alias": ["三头犬", "刻耳柏洛斯", "三头狗", "刻俄柏"],
+            "alias": ["三头狗", "刻耳柏洛斯", "三头犬", "刻俄柏"],
             "img_path": "113_Kerberos.png"
         },
         {
@@ -1628,7 +1628,7 @@
             "composer": "siqlo",
             "illustrator": "出前 x nekomiya",
             "charter": ["Rikko", "Rikko & TangScend", "TangScend", ""],
-            "alias": ["欧芹", "芹菜", "parsley"],
+            "alias": ["芹菜", "欧芹", "parsley"],
             "img_path": "114_ρars/ey.png"
         },
         {
@@ -1657,7 +1657,7 @@
                 "NerSANTA vs. BarbarianerSLEDGE",
                 ""
             ],
-            "alias": ["圣诞", "初音机关枪"],
+            "alias": ["初音机关枪", "圣诞"],
             "img_path": "116_ジングルベル(JingleBell).png"
         },
         {
@@ -1669,7 +1669,7 @@
             "composer": "HyuN & KLYDIX",
             "illustrator": "ZG",
             "charter": ["Rikko", "Barbarianerman", "Likey & 198ar", ""],
-            "alias": ["ttns", "TTNS"],
+            "alias": ["ttns"],
             "img_path": "117_TimetoNightSky(feat.LeeYuJin).png"
         },
         {
@@ -1698,7 +1698,7 @@
                 "NerSAN vs. Ctymax as \"泥头鱼\"",
                 ""
             ],
-            "alias": ["黑AM", "amkalpa", "病女", "am"],
+            "alias": ["黑am", "病女", "amkalpa", "am"],
             "img_path": "119_AnotherMe.png"
         },
         {
@@ -1710,7 +1710,7 @@
             "composer": "HAMA",
             "illustrator": "Arahosi",
             "charter": ["XMT小咩兔", "XMT小咩兔", "XMT小咩兔", ""],
-            "alias": ["dna", "Don't"],
+            "alias": ["don't", "dna"],
             "img_path": "120_Don'tNeverAround.png"
         },
         {
@@ -1727,7 +1727,7 @@
                 "其三 我所存在的证明",
                 ""
             ],
-            "alias": ["电阻", "绿头发", "绿魔王"],
+            "alias": ["绿魔王", "绿头发", "电阻"],
             "img_path": "121_RESSiSTANCE.png"
         },
         {
@@ -1780,7 +1780,7 @@
             "composer": "Ray Nautica & Reku Mochizuki",
             "illustrator": "Keiby.comics",
             "charter": ["Barbarianerman", "XMT小咩兔", "Future BarbarXMT", ""],
-            "alias": ["ftr", "fm"],
+            "alias": ["fm", "ftr"],
             "img_path": "125_FutureMind.png"
         },
         {
@@ -1809,7 +1809,7 @@
                 "百九十八 busting 阿爽",
                 ""
             ],
-            "alias": ["福利自动爆", "脑裂2", "FAB"],
+            "alias": ["fab", "脑裂2", "福利自动爆"],
             "img_path": "127_FULiAUTOBUSTER.png"
         },
         {
@@ -1838,7 +1838,7 @@
                 "Jeitie & CorruptedEntity 『Hollow』",
                 ""
             ],
-            "alias": ["眼睛", "眼疾", "op", "眼瞎"],
+            "alias": ["眼疾", "op", "眼睛", "眼瞎"],
             "img_path": "129_opia.png"
         },
         {
@@ -1862,7 +1862,7 @@
             "composer": "Silentroom",
             "illustrator": "Lanota © Noxy Games Inc. ",
             "charter": ["Barbarianerman & J.R", "RTH", "Gausbon", ""],
-            "alias": ["点划天堂", "点滑"],
+            "alias": ["点滑", "点划天堂"],
             "img_path": "131_Protoflicker.png"
         },
         {
@@ -1879,7 +1879,7 @@
                 "Nothing But Ner & Pcat",
                 ""
             ],
-            "alias": ["蓝界", "天际蓝", "HB铅笔"],
+            "alias": ["蓝界", "天际蓝", "hb铅笔"],
             "img_path": "132_HorizonBlue.png"
         },
         {
@@ -1897,14 +1897,14 @@
                 "Pat Brick Man Mr.C & Mr.B"
             ],
             "alias": [
-                "倒霉蛋",
                 "惨孩子",
-                "你节操都喂狗啦",
+                "你真惨",
                 "yatm",
                 "抽水马桶",
-                "你真惨",
-                "倒霉蛋子",
-                "管风琴"
+                "管风琴",
+                "倒霉蛋",
+                "你节操都喂狗啦",
+                "倒霉蛋子"
             ],
             "img_path": "133_YouaretheMiserable.png"
         },
@@ -1917,14 +1917,7 @@
             "composer": "Maozon",
             "illustrator": "Lanota © Noxy Games Inc. ",
             "charter": ["空の希", "空の希", "ST AS is XMT", "百九十八"],
-            "alias": [
-                "Stasis",
-                "炸船",
-                "stasis",
-                "船",
-                "停滞",
-                "你别想收了这首歌"
-            ],
+            "alias": ["stasis", "你别想收了这首歌", "炸船", "停滞", "船"],
             "img_path": "134_Stasis.png"
         },
         {
@@ -1941,7 +1934,7 @@
                 "小咩兔、参上",
                 ""
             ],
-            "alias": ["参上", "嗨害嗨来了嗷", "いざ、参ります", "速食面"],
+            "alias": ["速食面", "嗨害嗨来了嗷", "参上", "いざ、参ります"],
             "img_path": "135_いざ、参ります.png"
         },
         {
@@ -1965,7 +1958,7 @@
             "composer": "ETIA. feat. Jenga",
             "illustrator": "わっふゑ",
             "charter": ["Rikko", "Rikko", "NerSAN feat. Takanashi Rikko", ""],
-            "alias": ["OAO", "ONO", "oao", "ono"],
+            "alias": ["oao", "ono"],
             "img_path": "137_OnAndOn!!.png"
         },
         {
@@ -1982,7 +1975,7 @@
                 "TangScend -Err0rederci-",
                 ""
             ],
-            "alias": ["数据错误", "DataError"],
+            "alias": ["dataerror", "数据错误"],
             "img_path": "138_DataErr0r.png"
         },
         {
@@ -2036,13 +2029,13 @@
             "illustrator": "Ctymax vs. TNiK feat. 出前",
             "charter": ["b.b.n.m.", "h.o.m.e.e.e.", "s.t.p.g.", ""],
             "alias": [
-                "c.s.q.n.",
-                "厕所青年",
                 "草酸氢钠",
-                "csgo",
-                "必要条件",
+                "厕所青年",
                 "厕所请你",
-                "KSCN",
+                "必要条件",
+                "c.s.q.n.",
+                "csgo",
+                "kscn",
                 "碳.硫.氢.氮."
             ],
             "img_path": "142_c.s.q.n..png"
@@ -2126,7 +2119,7 @@
             "composer": "Plastic Fruits",
             "illustrator": "青鸟",
             "charter": ["TimiTini", "TimiTini", "XMT小咩兔", ""],
-            "alias": ["ecp", "el", "钟楼", "二人转", "El"],
+            "alias": ["ecp", "el", "二人转", "钟楼"],
             "img_path": "148_ElCondorPasa(PhigrosEdit).png"
         },
         {
@@ -2244,7 +2237,7 @@
             "composer": "LeaF",
             "illustrator": "笔记RE/海产",
             "charter": ["R/kko", "&ikko", "1÷98", ""],
-            "alias": ["÷", "潘多拉", "PANDORA"],
+            "alias": ["潘多拉", "÷", "pandora"],
             "img_path": "157_PoisonAND÷ORAffection.png"
         },
         {
@@ -2268,7 +2261,7 @@
             "composer": "seatrus",
             "illustrator": "2AI4wU4",
             "charter": ["零號宇夜", "壹號阿爽", "Pcat【零】198", ""],
-            "alias": ["零号车辆", "灵车"],
+            "alias": ["灵车", "零号车辆"],
             "img_path": "159_零號車輛.png"
         },
         {
@@ -2348,7 +2341,7 @@
                 "Arenn Saki as \"lAβyrinS\"",
                 "CN_115 as \"prediCameNt\""
             ],
-            "alias": ["迷宫", "滚筒洗衣机", "迷宫莉莉丝"],
+            "alias": ["迷宫莉莉丝", "迷宫", "滚筒洗衣机"],
             "img_path": "164_Lyrith-迷宮リリス-.png"
         },
         {
@@ -2389,7 +2382,7 @@
             "composer": "Rinth_live",
             "illustrator": "Tsuioku",
             "charter": ["NerSAN", "NerSAN", "NerSAN & 百九十八", ""],
-            "alias": ["太空人", "新生", "Re"],
+            "alias": ["re", "新生", "太空人"],
             "img_path": "167_Re_Nascence(PsystyleVer.).png"
         },
         {
@@ -2418,7 +2411,7 @@
                 "BarbariaNerSAN feat. Snorkel",
                 ""
             ],
-            "alias": ["汤姆惨叫", "机甲", "威廉尖叫", "ad", "AD钙奶", "AD"],
+            "alias": ["ad", "汤姆惨叫", "机甲", "ad钙奶", "威廉尖叫"],
             "img_path": "169_AfterDawn.png"
         },
         {
@@ -2435,7 +2428,7 @@
                 "while(TangScend==TangScend);",
                 "while(TangScend=TangScend);"
             ],
-            "alias": ["IEO", "ieo", "最新最热配置"],
+            "alias": ["ieo", "最新最热配置"],
             "img_path": "170_INFiNiTEENERZY-Overdoze-.png"
         },
         {

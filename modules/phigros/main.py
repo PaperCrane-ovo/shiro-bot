@@ -3,12 +3,12 @@ from datetime import datetime
 import shlex
 from typing import Annotated
 import json5
-from graia.ariadne.entry import Ariadne, Group, Member, MessageChain, GroupMessage, TempMessage, Source, ForwardNode, Forward, DetectPrefix, Image
+from graia.ariadne.entry import Ariadne, Group, Member, MessageChain, GroupMessage, TempMessage, Source, ForwardNode, Forward, DetectPrefix, Image, Plain
 from graia.saya import Channel
 from graia.saya.builtins.broadcast.schema import ListenerSchema
 from . import User, Phigros
 from .variable import prefix, dir_name
-
+from .song import Song
 
 # saya的模块导入只对__init__.py有效,所以在之前的版本中将所有的函数都放在__init__.py中.
 # 简化版
@@ -22,12 +22,11 @@ with open(dir_name + '/data/aichan.json', 'r', encoding='utf-8') as ai_chan_file
     ai_chan_template = json5.load(ai_chan_file)['template']  # type: ignore
 
 
-@channel.use(ListenerSchema(listening_events=[GroupMessage, TempMessage]))
+@channel.use(ListenerSchema(listening_events=[GroupMessage]))
 async def main_phigros(bot: Ariadne,
                        group: Group,
                        member: Member,
                        message: Annotated[MessageChain, DetectPrefix(prefix)],
-                       message_type: GroupMessage | TempMessage,
                        source: Source):
     '''
     监听函数,用于处理phigros相关指令
@@ -52,43 +51,18 @@ async def main_phigros(bot: Ariadne,
     match command:
         case 'bind':
             #  绑定用户信息
-            if len(args) == 0:
-                if isinstance(message_type, GroupMessage):
-                    await bot.send_group_message(group, MessageChain(['请输入session_token!']), quote=source)
-                elif isinstance(message_type, TempMessage):
-                    await bot.send_temp_message(member, MessageChain(['请输入session_token']), group)
-                return
-            player = User.get_user(member.id)
-            if player is None:
-                player = User(member.id, member.name, args[0])
-                result = player.register()
-                if isinstance(message_type, GroupMessage):
-                    await bot.send_group_message(group, MessageChain([result]))
-                elif isinstance(message_type, TempMessage):
-                    await bot.send_temp_message(member, MessageChain([result]), group)
-            else:
-                player.session_token = args[0]
-                result = player.update_user_info()
-                result = '用户信息已存在,'+result
-                if isinstance(message_type, GroupMessage):
-                    await bot.send_group_message(group, MessageChain([result]))
-                elif isinstance(message_type, TempMessage):
-                    await bot.send_temp_message(member, MessageChain([result]), group)
+            await bot.send_group_message(group, MessageChain(['为防止隐私泄露,请私聊我使用//bind <session_token>绑定session_token']), quote=source)
         case 'b19':
             # 获取b19数据
             player = User.get_user(member.id)
             if player is None:
-                if isinstance(message_type, GroupMessage):
-                    await bot.send_group_message(group, MessageChain(['请先绑定session_token!']), quote=source)
-                elif isinstance(message_type, TempMessage):
-                    await bot.send_temp_message(member, MessageChain(['请先绑定session_token']), group)
+                await bot.send_group_message(group, MessageChain(['请先私聊用//bind绑定session_token!']), quote=source)
                 return
             pgr = Phigros(player)
 
             b19 = await pgr.best19()
             if '--nf' in args:  # not forward
-                if isinstance(message_type, GroupMessage):
-                    await bot.send_group_message(group, MessageChain([b19]))
+                await bot.send_group_message(group, MessageChain([b19]))
 
             else:
                 forward = ForwardNode(
@@ -97,13 +71,45 @@ async def main_phigros(bot: Ariadne,
                     message=MessageChain([b19]),  # type: ignore
                     name='真白鹤甜甜'
                 )
-                if isinstance(message_type, GroupMessage):
-                    return await bot.send_group_message(group, MessageChain(Forward([forward])))
+                return await bot.send_group_message(group, MessageChain(Forward([forward])))
 
         case 'song':
-            # 获取歌曲信息
-            pass
-            # 需要等到把别名系统写完才能写
+            if len(args) == 1 and args[0].isdigit():
+                song_number = int(args[0])
+                if song_number > len(song_info):
+                    await bot.send_group_message(group, MessageChain(['没有这首歌哦']))
+                    return
+                result = Song.search_song_by_number(song_number)
+            else:
+                song_name = ''.join(args)
+                result = Song.search_song_by_alias(song_name)
+            if isinstance(result, list):
+                await bot.send_group_message(group, MessageChain(Plain('为您找到了以下可能的答案:\n'+'\n'.join(result))))
+            else:
+                await bot.send_group_message(group, MessageChain(Plain(result)))
+            return
+
+        case 'best':
+            # 获取最佳成绩
+            player = User.get_user(member.id)
+            if player is None:
+                await bot.send_group_message(group, MessageChain(['请先私聊用//bind绑定session_token!']), quote=source)
+                return
+            pgr = Phigros(player)
+            level = 'IN'
+            result = Song.search_song_by_alias(args[0])
+
+            if not result or isinstance(result, list):
+                await bot.send_group_message(group, MessageChain(['没有找到这首歌哦']))
+                return
+            if len(args) == 1 and result.difficulty[3] != 0.0:
+                level = 'AT'
+            elif len(args) == 2:
+                level = args[1].upper()
+
+            best = await pgr.single_best(result.song_id, level)
+            return await bot.send_group_message(group, MessageChain([best]), quote=source)
+
         case 'rd':
             # 随机一首歌
             not_forward = False
@@ -132,8 +138,7 @@ async def main_phigros(bot: Ariadne,
                         name='真白鹤甜甜AI酱哒'
                     )
                     message_chain = MessageChain(Forward([forward]))
-                if isinstance(message_type, GroupMessage):
-                    await bot.send_group_message(group, message_chain)
+                await bot.send_group_message(group, message_chain)
 
 
 def random_song_aichan():
@@ -144,3 +149,27 @@ def random_song_aichan():
     template_str = template.replace(
         r'{歌曲名称}', song['song_name']).replace(r'{作曲家}', song['composer'])
     return template_str, song
+
+
+@channel.use(ListenerSchema(listening_events=[TempMessage]))
+async def bind_session_token(
+    bot: Ariadne,
+    member: Member,
+    group: Group,
+    message: Annotated[MessageChain, DetectPrefix('//bind')],
+):
+    '''绑定session_token'''
+    session_token = message.display.strip()
+    if session_token == '':
+        await bot.send_temp_message(member, MessageChain(['请输入session_token']), group)
+        return
+    player = User.get_user(member.id)
+    if player is None:
+        player = User(member.id, member.name, session_token)
+        result = player.register()
+        await bot.send_temp_message(member, MessageChain([result]), group)
+    else:
+        player.session_token = session_token
+        result = player.update_user_info()
+        result = '用户信息已存在,'+result
+        await bot.send_temp_message(member, MessageChain([result]), group)

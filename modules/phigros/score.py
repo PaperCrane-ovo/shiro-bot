@@ -33,7 +33,7 @@ class Phigros:  # [too-few-public-methods]
 
         '''
         response = await self.api.user_best19(self.user.session_token, overflow)
-        if isinstance(response, str) and response.startswith('Error'):
+        if (isinstance(response, str) and response.startswith('Error')) or response['status'] == 0:
             return '获取数据失败,请稍后再试'
 
         assert isinstance(response, dict)
@@ -77,4 +77,13 @@ class Phigros:  # [too-few-public-methods]
         Returns: 用户单曲best数据
 
         '''
-        return await self.api.user_best(self.user.session_token, songid, level, withsonginfo)
+        response = await self.api.user_best(self.user.session_token, songid, level, withsonginfo)
+        if (isinstance(response, str) and response.startswith('Error')) or response['status'] == 0:
+            return '获取数据失败,请稍后再试'
+        best = response['content']['record']
+        return_value = f'''
+        曲目:{best['songname']},定数:{best['rating']}
+        难度:{best['level']},acc:{best['acc']},单曲rks:{best['rks']}
+        得分为:{best['score']}.
+        '''
+        return return_value
