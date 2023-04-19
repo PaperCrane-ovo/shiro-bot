@@ -11,6 +11,7 @@ from graia.saya import Saya
 from arclet.alconna.graia.saya import AlconnaBehaviour, AlconnaSchema
 from arclet.alconna.graia import Match, AlconnaDispatcher
 from arclet.alconna import Alconna
+import keyring
 
 
 saya = create(Saya)
@@ -18,7 +19,7 @@ create(AlconnaBehaviour)
 
 bot = Ariadne(
     connection=config(
-        1284086758,
+        int(keyring.get_password("pgr", "qq")),
         "mashiro",
         HttpClientConfig(host="http://localhost:10250"),
         WebsocketClientConfig(host="http://localhost:10250"),
