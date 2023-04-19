@@ -84,9 +84,10 @@ async def main_phigros(bot: Ariadne,
                 song_name = ''.join(args)
                 result = Song.search_song_by_alias(song_name)
             if isinstance(result, list):
+                result = [song.song_intro for song in result]
                 await bot.send_group_message(group, MessageChain(Plain('为您找到了以下可能的答案:\n'+'\n'.join(result))))
             else:
-                await bot.send_group_message(group, MessageChain(Plain(result)))
+                await bot.send_group_message(group, MessageChain(Plain(result.song_inform)))
             return
 
         case 'best':

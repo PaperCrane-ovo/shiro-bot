@@ -17,7 +17,7 @@ from graia.saya.builtins.broadcast.schema import ListenerSchema
 from .pgrapi import PhigrosUnlimitedAPI
 from .score import Phigros
 from .user import User
-from .main import main_phigros
+from .main import main_phigros, bind_session_token
 from .song import Song
 from .alias import add_alias, get_alias, get_song_list
 from .variable import prefix

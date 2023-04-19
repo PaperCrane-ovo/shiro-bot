@@ -81,9 +81,5 @@ class Phigros:  # [too-few-public-methods]
         if (isinstance(response, str) and response.startswith('Error')) or response['status'] == 0:
             return '获取数据失败,请稍后再试'
         best = response['content']['record']
-        return_value = f'''
-        曲目:{best['songname']},定数:{best['rating']}
-        难度:{best['level']},acc:{best['acc']},单曲rks:{best['rks']}
-        得分为:{best['score']}.
-        '''
+        return_value = f'''曲目:{best['songname']},定数:{best['rating']}\n难度:{best['level']},acc:{best['acc']},单曲rks:{best['rks']}\n得分为:{best['score']}.'''
         return return_value

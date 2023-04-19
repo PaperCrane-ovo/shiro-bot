@@ -52,17 +52,26 @@ class Song:
 
     def __str__(self):
         '''返回歌曲信息'''
-        song_str = f'''
-        {self.song_number}.{self.song_name}:曲师:{self.composer},插画:{self.illustrator}
-        '''
+        song_str = f'''{self.song_number}.{self.song_name}:曲师:{self.composer},插画:{self.illustrator}\n'''
         for i in range(3):
-            song_str += f'''
-            {self.level[i]}:{self.difficulty[i]},charter:{self.charter[i]}
-            '''
+            song_str += f'''{self.level[i]}:{self.difficulty[i]},charter:{self.charter[i]}\n'''
         if self.difficulty[3] != 0.0:
-            song_str += f'''
-            {self.level[3]}:{self.difficulty[3]},charter:{self.charter[3]}
-            '''
+            song_str += f'''{self.level[3]}:{self.difficulty[3]},charter:{self.charter[3]}\n'''
+        return song_str
+
+    @property
+    def song_intro(self):
+        '''返回歌曲简介'''
+        return f'{self.song_number}.{self.song_name}({self.composer})'
+
+    @property
+    def song_inform(self):
+        '''返回歌曲信息'''
+        song_str = f'''{self.song_number}.{self.song_name}:曲师:{self.composer},插画:{self.illustrator}\n'''
+        for i in range(3):
+            song_str += f'''{self.level[i]}:{self.difficulty[i]},charter:{self.charter[i]}\n'''
+        if self.difficulty[3] != 0.0:
+            song_str += f'''{self.level[3]}:{self.difficulty[3]},charter:{self.charter[3]}\n'''
         return song_str
 
     @classmethod
@@ -79,7 +88,12 @@ class Song:
         '''通过别名和本名搜索歌曲'''
         name = name.lower().replace(' ', '')
 
+        for _, song in cls.instances.items():
+            if name in song.alias:
+                return song
+
         result = []
+
         for _, song in cls.instances.items():
             if name in song.song_id.split('.')[0].lower():
                 result.append(song)
