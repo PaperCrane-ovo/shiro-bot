@@ -5,6 +5,8 @@ from graia.ariadne.entry import *
 from graia.saya import Saya, Channel
 from graia.saya.builtins.broadcast.schema import ListenerSchema
 import json5
+from .group import give_special_title
+
 channel = Channel.current()
 saya = Saya.current()
 

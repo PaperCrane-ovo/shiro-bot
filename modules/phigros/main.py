@@ -16,7 +16,7 @@ from .variable import prefix, dir_name
 
 channel = Channel.current()
 with open(dir_name + '/data/song.json', 'r', encoding='utf-8') as song_file:
-    song_info = json5.load(song_file)['song']  # type: ignore
+    song_info = json5.load(song_file)['songs']  # type: ignore
 
 with open(dir_name + '/data/aichan.json', 'r', encoding='utf-8') as ai_chan_file:
     ai_chan_template = json5.load(ai_chan_file)['template']  # type: ignore
