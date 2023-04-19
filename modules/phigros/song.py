@@ -6,36 +6,36 @@ import os
 class Song:
     '''歌曲类,包含歌曲的所有信息以及难度谱师等等.'''
 
-    song_info: dict
+    song_info: list[dict]
     instances: dict = {}
+    instances_list: list = []
+    song_list: list[str]
 
     @classmethod
     def read_songs_from_file(cls, file_path: str):
         '''从文件中读取歌曲信息'''
         with open(file_path, 'r', encoding='utf-8') as f:
-            cls.song_info = json5.load(f)['song']  # type: ignore
+            cls.song_info = json5.load(f)['songs']  # type: ignore
+        cls.song_list = [
+            f"{song['song_number']}.{song['song_name']} ({song['composer']})" for song in cls.song_info]
 
     @classmethod
     def handle_songs(cls):
         '''处理歌曲信息'''
-        cnt = 1
-        for _, songs in cls.song_info.items():
-            for song in songs:
-                cls(song['songsId'], cnt, song['songsName'], song['difficulty'],
-                    song['levels'], song['composer'], song['illustrator'], song['charter'],
-                    song['alias'])
-                cnt += 1
+        for song in cls.song_info:
+            cls(song['song_number'], song['song_id'], song['song_name'], song['difficulty'],
+                song['level'], song['composer'], song['illustrator'], song['charter'], song['alias'])
 
     def __init__(self,
-                 song_id,
                  song_number,
+                 song_id,
                  song_name,
                  difficulty,
                  level,
                  composer,
                  illustrator,
                  charter,
-                 alias):
+                 alias: list[str]):
         '''初始化歌曲类'''
         self.song_number = song_number
         self.song_id = song_id
@@ -44,10 +44,11 @@ class Song:
         self.level = level
         self.composer = composer
         self.illustrator = illustrator
-        self.chapter = charter
-        self.img_path = f'{str(song_number)+"_"+song_name.replace(" ", "")}.png'
+        self.charter = charter
         self.alias = alias
+        self.img_path = f'{str(song_number)+"_"+song_name.replace(" ", "")}.png'
         Song.instances[song_id] = self
+        Song.instances_list.append(self)
 
     def __str__(self):
         '''返回歌曲信息'''
@@ -63,9 +64,12 @@ class Song:
 
 
 if __name__ == '__main__':
-    illus_dir = os.path.dirname(__file__)+"/phigros曲绘"
-    with open(os.path.dirname(__file__)+'/song.json', 'r', encoding='utf-8') as f:
-        song_info = json5.load(f)['songs']  # type: ignore
-    for song in song_info:
-        if not os.path.exists(illus_dir+'/'+song['img_path']):
-            print(song['img_path'])
+    Song.read_songs_from_file(os.path.join(
+        os.path.dirname(__file__), 'data', 'song.json'))
+    Song.handle_songs()
+    with open(os.path.join(os.path.dirname(__file__), 'data', 'alias.txt'), 'r', encoding='utf-8') as f:
+        for line in f.readlines():
+            alias, songid = line.split()
+            Song.instances[songid].alias.append(alias)
+    Song.dump2json(os.path.join(
+        os.path.dirname(__file__), 'data', 'song.json'))

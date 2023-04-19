@@ -1,10 +1,12 @@
 '''shiro bot管理模块,负责对bot的底层管理.'''
 from os.path import dirname
-from graia.ariadne.entry import *
 from typing import Annotated
+from graia.ariadne.entry import *
 from graia.saya import Saya, Channel
 from graia.saya.builtins.broadcast.schema import ListenerSchema
 import json5
+from .group import give_special_title
+
 channel = Channel.current()
 saya = Saya.current()
 
@@ -23,7 +25,10 @@ channel.author('crane')
         listening_events=[FriendMessage],
     )
 )
-async def reload_modules(bot: Ariadne, friend: Friend, message_chain: Annotated[MessageChain, DetectPrefix(bot_prefix+'重载模组')], source: Source):
+async def reload_modules(bot: Ariadne,
+                         friend: Friend,
+                         message_chain: Annotated[MessageChain, DetectPrefix(bot_prefix+'重载模组')],
+                         source: Source):
     '''
     重载模块
 

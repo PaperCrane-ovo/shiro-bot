@@ -1,5 +1,5 @@
 {
-    "song": [
+    "songs": [
         {
             "song_number": 1,
             "song_id": "Glaciaxion.SunsetRay.0",
@@ -8,12 +8,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "SunsetRay",
             "illustrator": "艾若拉",
-            "chapter": [
+            "charter": [
                 "Barbarianerman",
                 "Arenn Saki",
                 "Barbarianerman vs. NerSAN",
                 ""
             ],
+            "alias": ["梦开始的地方"],
             "img_path": "1_Glaciaxion.png"
         },
         {
@@ -24,12 +25,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "NceS",
             "illustrator": "海产",
-            "chapter": [
+            "charter": [
                 "Barbarianerman",
                 "Barbarianerman",
                 "Barbarianerman",
                 ""
             ],
+            "alias": ["根除灾难"],
             "img_path": "2_EradicationCatastrophe.png"
         },
         {
@@ -40,7 +42,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Frums",
             "illustrator": "Ctymax",
-            "chapter": ["Ctymax", "Ctymax", "Ctymax", ""],
+            "charter": ["Ctymax", "Ctymax", "Ctymax", ""],
+            "alias": [],
             "img_path": "3_Credits.png"
         },
         {
@@ -51,7 +54,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Likey",
             "illustrator": "DoublePian",
-            "chapter": ["Su1fuR", "Su1fuR", "XMT小咩兔 vs Barbarianerman", ""],
+            "charter": ["Su1fuR", "Su1fuR", "XMT小咩兔 vs Barbarianerman", ""],
+            "alias": [],
             "img_path": "4_Dlyrotz.png"
         },
         {
@@ -62,13 +66,14 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "CrossingSound",
             "illustrator": "赤芽",
-            "chapter": [
+            "charter": [
                 "Arenn Saki&Catcats",
                 "Arenn Saki&Catcats",
                 "Arenn Saki&Catcats",
                 ""
             ],
-            "img_path": "5_EnginexStartmelodymix.png"
+            "alias": [],
+            "img_path": "5_EnginexStart!!(melodymix).png"
         },
         {
             "song_number": 6,
@@ -78,12 +83,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "姜米條",
             "illustrator": "winder",
-            "chapter": [
+            "charter": [
                 "Catcats & 百九十八",
                 "Catcats & 百九十八",
                 "Catcats & 百九十八",
                 ""
             ],
+            "alias": ["Hikari", "送人头光", "光"],
             "img_path": "6_光.png"
         },
         {
@@ -94,13 +100,14 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Ctymax feat. NceS",
             "illustrator": "翠冷兮",
-            "chapter": [
+            "charter": [
                 "小鹏 fixed by Barbarianerman",
                 "小鹏 fixed by Barbarianerman",
                 "百九十八",
                 ""
             ],
-            "img_path": "7_Wintercube.png"
+            "alias": ["冬方块", "↑↓", "哲学", "冬块"],
+            "img_path": "7_Winter↑cube↓.png"
         },
         {
             "song_number": 8,
@@ -110,8 +117,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Tetrajectory feat.Ctymax",
             "illustrator": "IvyTowers",
-            "chapter": ["M3d1uM", "M3d1uM", "Barbarianerman feat. Gausbon", ""],
-            "img_path": "8_Cipher20.png"
+            "charter": ["M3d1uM", "M3d1uM", "Barbarianerman feat. Gausbon", ""],
+            "alias": ["三年动画"],
+            "img_path": "8_Cipher:/2&//<|0.png"
         },
         {
             "song_number": 9,
@@ -121,8 +129,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "OnlyMyBlackScore",
             "illustrator": "L-sp4",
-            "chapter": ["月下樱&115", "月下樱&115", "XMT小咩兔", ""],
-            "img_path": "9_混乱Confusion.png"
+            "charter": ["月下樱&115", "月下樱&115", "XMT小咩兔", ""],
+            "alias": [],
+            "img_path": "9_混乱-Confusion.png"
         },
         {
             "song_number": 10,
@@ -132,12 +141,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "MYUKKE.",
             "illustrator": "ViscerA & Psycholine",
-            "chapter": [
+            "charter": [
                 "AUTO. SHOOTER.",
                 "AUTO. SHOOTER.",
                 "AUTO. SHOOTER. fixed by Ctymax",
                 ""
             ],
+            "alias": ["福利自动射", "脑裂", "FAS"],
             "img_path": "10_FULiAUTOSHOOTER.png"
         },
         {
@@ -148,7 +158,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "SOTUI",
             "illustrator": "CH",
-            "chapter": ["阿爽", "阿爽", "CN_115+TangScend", ""],
+            "charter": ["阿爽", "阿爽", "CN_115+TangScend", ""],
+            "alias": ["人类"],
             "img_path": "11_HumaN.png"
         },
         {
@@ -159,8 +170,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Bluewind",
             "illustrator": "老张",
-            "chapter": ["阿爽", "阿爽", "晨 vs. 阿爽", ""],
-            "img_path": "12_PRAW.png"
+            "charter": ["阿爽", "阿爽", "晨 vs. 阿爽", ""],
+            "alias": ["[PRAW]", "praw", "PRAW"],
+            "img_path": "12_[PRAW].png"
         },
         {
             "song_number": 13,
@@ -170,7 +182,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Normal1zer",
             "illustrator": "艾是Abby",
-            "chapter": ["阿爽", "阿爽", "NerSAN", ""],
+            "charter": ["阿爽", "阿爽", "NerSAN", ""],
+            "alias": ["像素", "像素人", "三兄弟"],
             "img_path": "13_PixelRebelz.png"
         },
         {
@@ -181,7 +194,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "SunsetRay/NceS",
             "illustrator": "IvyTowers",
-            "chapter": ["Su1fuR", "Su1fuR", "StupiGGy", ""],
+            "charter": ["Su1fuR", "Su1fuR", "StupiGGy", ""],
+            "alias": ["科目二"],
             "img_path": "14_Cereris.png"
         },
         {
@@ -192,13 +206,14 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Normal1zer",
             "illustrator": "cycats",
-            "chapter": [
+            "charter": [
                 "Clutter",
                 "Clutter",
                 "分化者 fixed by Barbarianerman",
                 ""
             ],
-            "img_path": "15_NonMelodicRagezMUGEdit.png"
+            "alias": ["nmr", "NMR", "震楼机", "没旋律"],
+            "img_path": "15_Non-MelodicRagez(MUGEdit).png"
         },
         {
             "song_number": 16,
@@ -208,7 +223,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "MonstDeath",
             "illustrator": "笔记RE",
-            "chapter": ["百九十八", "百九十八", "百九十八", ""],
+            "charter": ["百九十八", "百九十八", "百九十八", ""],
+            "alias": ["苏丹"],
             "img_path": "16_SultanRage.png"
         },
         {
@@ -219,7 +235,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Antistar feat. Ctymax",
             "illustrator": "xperz",
-            "chapter": ["M3d1uM", "M3d1uM", "JKy", ""],
+            "charter": ["M3d1uM", "M3d1uM", "JKy", ""],
+            "alias": ["课堂记忆", "交互课堂", "交互课堂"],
             "img_path": "17_ClassMemories.png"
         },
         {
@@ -230,8 +247,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Itsuki",
             "illustrator": "喵n葵",
-            "chapter": ["Su1fuR", "Su1fuR", "-StupiGGy- fixed by 晨", ""],
-            "img_path": "18_BonusTime.png"
+            "charter": ["Su1fuR", "Su1fuR", "-StupiGGy- fixed by 晨", ""],
+            "alias": [],
+            "img_path": "18_-SURREALISM-.png"
         },
         {
             "song_number": 19,
@@ -241,13 +259,14 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Megalo_PaleWhite",
             "illustrator": "笔记RE",
-            "chapter": [
+            "charter": [
                 "Uvernight fixed by Barbarianerman",
                 "Uvernight fixed by Barbarianerman",
                 "Uvernight fixed by 百九十八",
                 ""
             ],
-            "img_path": "19_SURREALISM.png"
+            "alias": [],
+            "img_path": "19_BonusTime.png"
         },
         {
             "song_number": 20,
@@ -257,7 +276,8 @@
             "level": ["EZ", "HD", "IN", "AT", "Legacy"],
             "composer": "Tanchiky",
             "illustrator": "Karameru",
-            "chapter": ["Su1fuR", "Su1fuR", "B B M pow", "", "Ctymax vs 阿爽 "],
+            "charter": ["Su1fuR", "Su1fuR", "B B M pow", "", "Ctymax vs 阿爽 "],
+            "alias": ["esm", "ESM", "esm跑"],
             "img_path": "20_ENERGYSYNERGYMATRIX.png"
         },
         {
@@ -268,8 +288,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "FLuoRiTe/姜米條",
             "illustrator": "NEKO&海产",
-            "chapter": ["HCC!!!", "HCC!!!", "HCC!!!", ""],
-            "img_path": "21_NYA.png"
+            "charter": ["HCC!!!", "HCC!!!", "HCC!!!", ""],
+            "alias": ["猫", "喵"],
+            "img_path": "21_NYA!!!(Phigrosver.).png"
         },
         {
             "song_number": 22,
@@ -279,8 +300,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "1N6Fs",
             "illustrator": "IvyTowers",
-            "chapter": ["鲲&百九十八", "鲲&百九十八", "鲲&百九十八", ""],
-            "img_path": "22_JunXionBetweenLifeAndDeathVIPMix.png"
+            "charter": ["鲲&百九十八", "鲲&百九十八", "鲲&百九十八", ""],
+            "alias": ["俊雄"],
+            "img_path": "22_JunXion Between Life And Death(VIP Mix).png"
         },
         {
             "song_number": 23,
@@ -290,7 +312,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Ju_E",
             "illustrator": "Haight",
-            "chapter": ["Ctymax", "Ctymax", "Ctymax", ""],
+            "charter": ["Ctymax", "Ctymax", "Ctymax", ""],
+            "alias": [],
             "img_path": "23_cryout.png"
         },
         {
@@ -301,7 +324,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "影虎。",
             "illustrator": "英英英",
-            "chapter": ["百九十八", "百九十八", "百九十八", ""],
+            "charter": ["百九十八", "百九十八", "百九十八", ""],
+            "alias": ["影虎"],
             "img_path": "24_Reimei.png"
         },
         {
@@ -312,8 +336,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "rider",
             "illustrator": "1B",
-            "chapter": ["M3d1uM", "M3d1uM", "奥術 ~The Empery~", ""],
-            "img_path": "25_尊師TheGuru.png"
+            "charter": ["M3d1uM", "M3d1uM", "奥術 ~The Empery~", ""],
+            "alias": ["尊师"],
+            "img_path": "25_尊師～TheGuru～.png"
         },
         {
             "song_number": 26,
@@ -323,12 +348,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "姜米條☆颶風 ~ ♫元力上人♫",
             "illustrator": "昔璃☆暴雨 ~ ♫危難聖帝♫",
-            "chapter": [
+            "charter": [
                 "無極☆雷鳴 ~ ♫死の序曲♫",
                 "無極☆雷鳴 ~ ♫死の序曲♫",
                 "無極☆雷鳴 ~ ♫死の序曲♫",
                 "無極☆雷鳴 ~ ♫死の序曲♫"
             ],
+            "alias": ["痉挛", "大哥上楼梯", "粉色异瞳双马尾", "粉毛异瞳双马尾"],
             "img_path": "26_Spasmodic.png"
         },
         {
@@ -339,12 +365,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "rider",
             "illustrator": "笔记RE",
-            "chapter": [
+            "charter": [
                 "亚树见希子 & 百九十八",
                 "亚树见希子 & 百九十八",
                 "亚树见希子 & 百九十八",
                 ""
             ],
+            "alias": ["lab", "LAB", "all"],
             "img_path": "27_LeaveAllBehind.png"
         },
         {
@@ -355,8 +382,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "P4koo feat. つゆり花鈴",
             "illustrator": "Doro-nyong & Ratif",
-            "chapter": ["阿♪爽", "阿♪爽", "阿♪爽", ""],
-            "img_path": "28_ColorfulDays.png"
+            "charter": ["阿♪爽", "阿♪爽", "阿♪爽", ""],
+            "alias": [],
+            "img_path": "28_ColorfulDays♪.png"
         },
         {
             "song_number": 29,
@@ -366,8 +394,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "dandeless",
             "illustrator": "snake.ribs",
-            "chapter": ["百九十八", "百九十八", "百九十八", ""],
-            "img_path": "29_microwav.png"
+            "charter": ["百九十八", "百九十八", "百九十八", ""],
+            "alias": ["微波炉"],
+            "img_path": "29_micro.wav.png"
         },
         {
             "song_number": 30,
@@ -377,12 +406,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "姜米條",
             "illustrator": "昔璃&TNiK",
-            "chapter": [
+            "charter": [
                 "Barbarianerman",
                 "Barbarianerman",
                 "Barbarianerman",
                 ""
             ],
+            "alias": ["重开"],
             "img_path": "30_重生.png"
         },
         {
@@ -393,7 +423,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "MYUKKE.",
             "illustrator": "青鸟",
-            "chapter": ["Ctymax", "晨", "晨 vs. Ctymax", ""],
+            "charter": ["Ctymax", "晨", "晨 vs. Ctymax", ""],
+            "alias": ["NOYM", "没一个男的", "没一个是人"],
             "img_path": "31_NOONEYESMAN.png"
         },
         {
@@ -404,12 +435,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Se-U-Ra",
             "illustrator": "鲸弑",
-            "chapter": [
+            "charter": [
                 "六回目Traveler Scend",
                 "六回目Traveler Scend",
                 "六回目Traveler Scend as \"Knight of Arq\"",
                 ""
             ],
+            "alias": [],
             "img_path": "32_望影の方舟Six.png"
         },
         {
@@ -420,12 +452,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Se-U-Ra",
             "illustrator": "Se-U-Ra",
-            "chapter": [
+            "charter": [
                 "信仰の剣『生』",
                 "平川の剣『士』",
                 "夜明の剣『靈』",
                 "断罪の剣『神』"
             ],
+            "alias": ["姐姐砍我"],
             "img_path": "33_Igallta.png"
         },
         {
@@ -436,12 +469,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "WyvernP",
             "illustrator": "汉堡",
-            "chapter": [
+            "charter": [
                 "Barbarianerman vs. Alloces",
                 "Barbarianerman vs. Alloces",
                 "Barbarianerman vs. Alloces",
                 ""
             ],
+            "alias": ["时悖"],
             "img_path": "34_ClockParadox.png"
         },
         {
@@ -452,12 +486,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Hundotte",
             "illustrator": "幽灵星",
-            "chapter": [
+            "charter": [
                 "TimiTini",
                 "XMT小咩兔",
                 "Ctymax vs. Barbarianerman",
                 ""
             ],
+            "alias": ["时序"],
             "img_path": "35_Chronologika.png"
         },
         {
@@ -468,7 +503,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "P4koo",
             "illustrator": "青鸟",
-            "chapter": ["晨 vs. XMT小咩兔", "晨 vs. XMT小咩兔", "NerSAN", ""],
+            "charter": ["晨 vs. XMT小咩兔", "晨 vs. XMT小咩兔", "NerSAN", ""],
+            "alias": ["时隙", "NOT", "not"],
             "img_path": "36_NickofTime.png"
         },
         {
@@ -479,7 +515,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Lime",
             "illustrator": "inukoro",
-            "chapter": ["Pcat", "Rikko", "時の希 & 百九十八", ""],
+            "charter": ["Pcat", "Rikko", "時の希 & 百九十八", ""],
+            "alias": ["天文钟", "时钟"],
             "img_path": "37_Chronomia.png"
         },
         {
@@ -490,13 +527,14 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "SunsetRay",
             "illustrator": "老张",
-            "chapter": [
+            "charter": [
                 "Pcat『Scatter』",
                 "阿爽『Destroy』",
                 "NerSAN vs. 阿爽 『Collapse』",
                 ""
             ],
-            "img_path": "38_ChronosCollapseLaCampanella.png"
+            "alias": ["李斯特", "时溃", "李老头", "时崩", "钟", "李斯特的钟"],
+            "img_path": "38_ChronosCollapse-LaCampanella.png"
         },
         {
             "song_number": 39,
@@ -506,13 +544,21 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Team Grimoire",
             "illustrator": "犀牛坨动画工坊",
-            "chapter": [
+            "charter": [
                 "RDRT -p 19:08:31",
                 "RDRT -p 20:02:21",
                 "RDRT -p 20:08:31",
                 "RWND -p 16493:62786:92551"
             ],
-            "img_path": "39_Rrharil.png"
+            "alias": [
+                "猫娘",
+                "最难魔王曲",
+                "rr",
+                "狗娘",
+                "新手教程",
+                "Rrhar'il"
+            ],
+            "img_path": "39_Rrhar'il.png"
         },
         {
             "song_number": 40,
@@ -522,7 +568,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "LeaF",
             "illustrator": "海产",
-            "chapter": ["Lumiere", "Lumiere", "Gausbon", ""],
+            "charter": ["Lumiere", "Lumiere", "Gausbon", ""],
+            "alias": ["二重身", "砸瓦鲁多"],
             "img_path": "40_Doppelganger.png"
         },
         {
@@ -533,11 +580,24 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "LeaF",
             "illustrator": "cycat",
-            "chapter": [
+            "charter": [
                 "阿爽 fixed by Barbarinerman",
                 "阿爽 fixed by Barbarinerman",
                 "阿爽",
                 "阿爽"
+            ],
+            "alias": [
+                "mopemope",
+                "小花",
+                "儿童邪典",
+                "儿童鞋垫",
+                "毛八毛八",
+                "老八卖花",
+                "儿歌",
+                "もペもペ",
+                "蜜雪冰城",
+                "老八老八",
+                "儿童金曲"
             ],
             "img_path": "41_もぺもぺ.png"
         },
@@ -549,12 +609,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "LeaF",
             "illustrator": "喵n葵",
-            "chapter": [
+            "charter": [
                 "H.C.C. fixed by Barbarinerman",
                 "H.C.C. fixed by Barbarinerman",
                 "百九十八",
                 ""
             ],
+            "alias": ["骂人ol"],
             "img_path": "42_MARENOL.png"
         },
         {
@@ -565,12 +626,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "闫东炜",
             "illustrator": "L-sp4",
-            "chapter": [
+            "charter": [
                 "阿爽 & 百九十八",
                 "阿爽 & 百九十八",
                 "阿爽 & 百九十八",
                 ""
             ],
+            "alias": [],
             "img_path": "43_萤火虫の怨.png"
         },
         {
@@ -581,12 +643,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "闫东炜",
             "illustrator": "IvyTowers",
-            "chapter": [
+            "charter": [
                 "猫の信 & 百九十八",
                 "猫の信 & 百九十八",
                 "猫の信 & 百九十八",
                 ""
             ],
+            "alias": [],
             "img_path": "44_万吨匿名信.png"
         },
         {
@@ -597,12 +660,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "闫东炜",
             "illustrator": "cycats",
-            "chapter": [
+            "charter": [
                 "Arenn Saki vs Catcats vs 百九十八",
                 "Arenn Saki vs Catcats vs 百九十八",
                 "Arenn Saki vs Catcats vs 百九十八",
                 ""
             ],
+            "alias": [],
             "img_path": "45_风屿.png"
         },
         {
@@ -613,12 +677,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "YUE.STEVEN/uen",
             "illustrator": "何呵",
-            "chapter": [
+            "charter": [
                 "阿爽 fixed by Barbarianerman",
                 "阿爽 fixed by Barbarianerman",
                 "阿爽",
                 "NerSAN & 百九十八"
             ],
+            "alias": ["大逼斗", "分贝娃娃", "分贝玩偶", "魔王"],
             "img_path": "46_dBdoll.png"
         },
         {
@@ -629,12 +694,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "小红Akane，李祥晖",
             "illustrator": "艾是Abby",
-            "chapter": [
+            "charter": [
                 "阿爽 fixed by Barbarianerman",
                 "阿爽 fixed by Barbarianerman",
                 "JKy",
                 ""
             ],
+            "alias": [],
             "img_path": "47_Dash.png"
         },
         {
@@ -645,7 +711,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "符白牙/SiYFics",
             "illustrator": "御坂果子",
-            "chapter": ["Cloud Catcats", "Cloud Catcats", "云正太", ""],
+            "charter": ["Cloud Catcats", "Cloud Catcats", "云正太", ""],
+            "alias": ["云女鬼"],
             "img_path": "48_云女孩.png"
         },
         {
@@ -656,12 +723,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Asuka",
             "illustrator": "TNiK",
-            "chapter": [
+            "charter": [
                 "Drop Catcats",
                 "Drop Catcats",
                 "NerSAN & 百九十八",
                 ""
             ],
+            "alias": [],
             "img_path": "49_DropIt.png"
         },
         {
@@ -672,12 +740,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Friedwav",
             "illustrator": "何呵",
-            "chapter": [
+            "charter": [
                 "撕裂者『無極』 fixed by 晨",
                 "撕裂者『無極』 fixed by 晨",
                 "撕裂者『Alloces vs Shin』",
                 ""
             ],
+            "alias": ["撕裂者"],
             "img_path": "50_RIPPER.png"
         },
         {
@@ -688,7 +757,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "闫东炜",
             "illustrator": "笔记RE",
-            "chapter": ["百九十八", "百九十八", "百九十八", ""],
+            "charter": ["百九十八", "百九十八", "百九十八", ""],
+            "alias": ["失语症"],
             "img_path": "51_Aphasia.png"
         },
         {
@@ -699,7 +769,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "闫东炜",
             "illustrator": "喵n葵",
-            "chapter": ["HaraKuma", "HaraKuma", "Barbarianerman feat. 晨", ""],
+            "charter": ["HaraKuma", "HaraKuma", "Barbarianerman feat. 晨", ""],
+            "alias": [],
             "img_path": "52_开心病.png"
         },
         {
@@ -710,7 +781,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "闫东炜",
             "illustrator": "IvyTowers",
-            "chapter": ["HaraKuma", "HaraKuma", "Barbarianerman", ""],
+            "charter": ["HaraKuma", "HaraKuma", "Barbarianerman", ""],
+            "alias": ["华灯爱"],
             "img_path": "53_華灯爱.png"
         },
         {
@@ -721,13 +793,14 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "K-forest",
             "illustrator": "YuKiMuMa",
-            "chapter": [
+            "charter": [
                 "Find_Ctymax",
                 "Find_Ctymax",
                 "Find_Ctymax fixed by 百九十八",
                 ""
             ],
-            "img_path": "54_FindMe.png"
+            "alias": [],
+            "img_path": "54_Find_Me.png"
         },
         {
             "song_number": 55,
@@ -737,7 +810,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "朔(Apo11o program vs. お月さま交響曲) ft. kuroa×荒巻",
             "illustrator": "hideo",
-            "chapter": ["A.S.H", "A.S.H", "A.S.H&晨", ""],
+            "charter": ["A.S.H", "A.S.H", "A.S.H&晨", ""],
+            "alias": [],
             "img_path": "55_Sein.png"
         },
         {
@@ -748,12 +822,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "LeaF",
             "illustrator": "DoublePian",
-            "chapter": [
+            "charter": [
                 "Catcats a.k.a. 無極 VS H.C.C. fixed by 晨",
                 "Catcats a.k.a. 無極 VS H.C.C. fixed by Pcat",
                 "晨",
                 "Catcats a.k.a. 無極 VS H.C.C. fixed by 野从&晨"
             ],
+            "alias": [],
             "img_path": "56_狂喜蘭舞.png"
         },
         {
@@ -764,12 +839,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "rider",
             "illustrator": "1B",
-            "chapter": [
+            "charter": [
                 "Sparkle Ctymax",
                 "Sparkle Ctymax",
                 "Sparkle Ctymax fixed by 百九十八",
                 ""
             ],
+            "alias": [],
             "img_path": "57_SparkleNewLife.png"
         },
         {
@@ -780,12 +856,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Halv",
             "illustrator": "utosao",
-            "chapter": [
+            "charter": [
                 "XMT小咩兔 & Myna",
                 "XMT小咩兔 & Myna",
                 "StupiGGy fixed by 百九十八",
                 ""
             ],
+            "alias": ["紫时停", "紫伞", "kk"],
             "img_path": "58_KhronostasisKatharsis.png"
         },
         {
@@ -796,7 +873,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "WyvernP",
             "illustrator": "knife美工刀",
-            "chapter": ["VikingNexus", "VikingNexus", "VikingNexus", ""],
+            "charter": ["VikingNexus", "VikingNexus", "VikingNexus", ""],
+            "alias": ["雪漠"],
             "img_path": "59_SnowDesert.png"
         },
         {
@@ -807,12 +885,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "NceS",
             "illustrator": "knife美工刀",
-            "chapter": [
+            "charter": [
                 "Ctymatch Girl",
                 "Burn Full Catcats",
                 "Burn Full Catcats VS Ctymatch Girl",
                 ""
             ],
+            "alias": ["烤全鸭", "烤全押", "烤全鸭", "考全押", "烤全押", "烤鸭"],
             "img_path": "60_Burn.png"
         },
         {
@@ -823,14 +902,23 @@
             "level": ["EZ", "HD", "IN", "AT", "Legacy"],
             "composer": "LeaF",
             "illustrator": "Optie",
-            "chapter": [
+            "charter": [
                 "Clutter",
                 "Clutter",
                 "Clutter",
                 "",
                 "阿爽 VS Arenn Saki"
             ],
-            "img_path": "61_Aleph0.png"
+            "alias": [
+                "数学课堂",
+                "A0",
+                "阿列夫零",
+                "Aleph-0",
+                "ℵ-0",
+                "Leaf的数学课堂",
+                "א-0"
+            ],
+            "img_path": "61_Aleph-0.png"
         },
         {
             "song_number": 62,
@@ -840,12 +928,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "SaMZIng",
             "illustrator": "叶藤",
-            "chapter": [
+            "charter": [
                 "Gausbon ~ See you next time ~ ",
                 "Gausbon ~ See you next time ~ ",
                 "Gausbon ~ See you next time ~ ",
                 ""
             ],
+            "alias": ["下次一定"],
             "img_path": "62_NextTime.png"
         },
         {
@@ -856,12 +945,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Ctymax vs. NceS",
             "illustrator": "knife美工刀",
-            "chapter": [
+            "charter": [
                 "阿爽 vs. Ctymax -Haose 垃圾-",
                 "阿爽 vs. Ctymax -Haose 垃圾-",
                 "阿爽 vs. Ctymax -Haose 垃圾-",
                 ""
             ],
+            "alias": ["垃圾", "垃圾分类", "你是什么垃圾"],
             "img_path": "63_RubbishSorting.png"
         },
         {
@@ -872,7 +962,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Neutral Moon",
             "illustrator": "IvyTowers",
-            "chapter": ["Another M3", "Another M3", "NerSAN", ""],
+            "charter": ["Another M3", "Another M3", "NerSAN", ""],
+            "alias": ["amrst", "另一个我"],
             "img_path": "64_AnotherMe.png"
         },
         {
@@ -883,7 +974,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "rareguy",
             "illustrator": "IvyTowers",
-            "chapter": ["Ctymax", "Ctymax", "Ctymax", ""],
+            "charter": ["Ctymax", "Ctymax", "Ctymax", ""],
+            "alias": [],
             "img_path": "65_mechanted.png"
         },
         {
@@ -894,7 +986,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "BilliumMoto",
             "illustrator": "百九十八",
-            "chapter": ["百九十八", "百九十八", "百九十八", ""],
+            "charter": ["百九十八", "百九十八", "百九十八", ""],
+            "alias": ["小黄歌"],
             "img_path": "66_lifeflashesbeforeweebeyes.png"
         },
         {
@@ -905,7 +998,8 @@
             "level": ["EZ", "HD", "IN", "AT", "Legacy"],
             "composer": "lixound",
             "illustrator": "Xquid",
-            "chapter": ["Su1fuR", "Su1fuR", "百九十八", "", "Catcats"],
+            "charter": ["Su1fuR", "Su1fuR", "百九十八", "", "Catcats"],
+            "alias": ["bttb", "BTTB"],
             "img_path": "67_BreakThroughTheBarrier.png"
         },
         {
@@ -916,7 +1010,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "黒皇帝",
             "illustrator": "Sand",
-            "chapter": ["Uvernight", "Uvernight", "Gausbon", ""],
+            "charter": ["Uvernight", "Uvernight", "Gausbon", ""],
+            "alias": ["黑皇帝", "时停"],
             "img_path": "68_Chronostasis.png"
         },
         {
@@ -927,12 +1022,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Sound Souler",
             "illustrator": "Photonskyto",
-            "chapter": [
+            "charter": [
                 "Phigros Charting Team",
                 "Phigros Charting Team",
                 "Phigros Charting Team",
                 ""
             ],
+            "alias": ["死鬼"],
             "img_path": "69_DeadSoul.png"
         },
         {
@@ -943,7 +1039,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "HyuN",
             "illustrator": "DoublePian",
-            "chapter": ["晨 vs 阿爽", "晨 vs 阿爽", "晨 vs 阿爽", ""],
+            "charter": ["晨 vs 阿爽", "晨 vs 阿爽", "晨 vs 阿爽", ""],
+            "alias": ["无限天堂", "交互天堂", "黄键天堂"],
             "img_path": "70_InfinityHeaven.png"
         },
         {
@@ -954,7 +1051,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "HyuN feat. YURI",
             "illustrator": "Nabom",
-            "chapter": ["Gausbon", "Gausbon", "Gausbon", ""],
+            "charter": ["Gausbon", "Gausbon", "Gausbon", ""],
+            "alias": [],
             "img_path": "71_Disorder.png"
         },
         {
@@ -965,8 +1063,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "HyuN feat. Syepias",
             "illustrator": "knife美工刀",
-            "chapter": ["無†極", "無†極 fixed by Rikko", "無†極", ""],
-            "img_path": "72_CROSSSOUL.png"
+            "charter": ["無†極", "無†極 fixed by Rikko", "無†極", ""],
+            "alias": ["穿魂"],
+            "img_path": "72_CROSS†SOUL.png"
         },
         {
             "song_number": 73,
@@ -976,13 +1075,14 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "DarTokki",
             "illustrator": "TNiK",
-            "chapter": [
+            "charter": [
                 "Ctymax VS 百九十八",
                 "Ctymax VS 百九十八",
                 "Ctymax VS 百九十八",
                 ""
             ],
-            "img_path": "73_SpeedUp.png"
+            "alias": [],
+            "img_path": "73_SpeedUp!.png"
         },
         {
             "song_number": 74,
@@ -992,7 +1092,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "EmoCo.",
             "illustrator": "NOISER",
-            "chapter": ["Ctymax VS 晨", "Ctymax VS 晨", "Ctymax VS 晨", ""],
+            "charter": ["Ctymax VS 晨", "Ctymax VS 晨", "Ctymax VS 晨", ""],
+            "alias": ["骂人药水"],
             "img_path": "74_MagentaPotion.png"
         },
         {
@@ -1003,7 +1104,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "CAP3",
             "illustrator": "TNiK",
-            "chapter": ["JKy", "JKy", "JKy", ""],
+            "charter": ["JKy", "JKy", "JKy", ""],
+            "alias": [],
             "img_path": "75_GetBack.png"
         },
         {
@@ -1014,7 +1116,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "WyvernP feat. Madol",
             "illustrator": "GAMEBAKA",
-            "chapter": ["Jeitie", "Jeitie", "Jeitie", ""],
+            "charter": ["Jeitie", "Jeitie", "Jeitie", ""],
+            "alias": ["白屏", "u盘", "U盘", "歌剧院", "结束了吗"],
             "img_path": "76_Palescreen.png"
         },
         {
@@ -1025,7 +1128,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "EBIMAYO",
             "illustrator": "Ctymax feat. EBIMAYO",
-            "chapter": ["百九十八", "百九十八", "百九十八", ""],
+            "charter": ["百九十八", "百九十八", "百九十八", ""],
+            "alias": ["良锤", "好锤子", "丫口"],
             "img_path": "77_GOODTEK.png"
         },
         {
@@ -1036,12 +1140,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "EBIMAYO",
             "illustrator": "EBIMAYO",
-            "chapter": [
+            "charter": [
                 "Gausbounce & 晨",
                 "Gausbounce",
                 "Ctymax vs. Gausbounce",
                 ""
             ],
+            "alias": ["良弹"],
             "img_path": "78_GOODBOUNCE.png"
         },
         {
@@ -1052,7 +1157,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "EBIMAYO",
             "illustrator": "EBIMAYO",
-            "chapter": ["阿爽", "StupiGGy", "StupiGGy vs. 阿爽", ""],
+            "charter": ["阿爽", "StupiGGy", "StupiGGy vs. 阿爽", ""],
+            "alias": ["良界"],
             "img_path": "79_GOODWORLD.png"
         },
         {
@@ -1063,7 +1169,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "EBIMAYO",
             "illustrator": "Ctymax",
-            "chapter": ["晨", "晨", "晨", ""],
+            "charter": ["晨", "晨", "晨", ""],
+            "alias": ["良幸", "良性"],
             "img_path": "80_GOODFORTUNE.png"
         },
         {
@@ -1074,7 +1181,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "EBIMAYO",
             "illustrator": "Ctymax feat. EBIMAYO",
-            "chapter": ["阿爽", "阿爽", "Ctymax vs. 阿爽", ""],
+            "charter": ["阿爽", "阿爽", "Ctymax vs. 阿爽", ""],
+            "alias": ["良怒", "好生气"],
             "img_path": "81_GOODRAGE.png"
         },
         {
@@ -1085,7 +1193,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Paul Bazooka",
             "illustrator": "START SEED",
-            "chapter": ["百九十八", "百九十八", "百九十八", ""],
+            "charter": ["百九十八", "百九十八", "百九十八", ""],
+            "alias": ["吃山者", "食山者", "世吞", "吃山人"],
             "img_path": "82_TheMountainEater.png"
         },
         {
@@ -1096,7 +1205,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "tokiwa",
             "illustrator": "cycats",
-            "chapter": ["Uvernight", "Uvernight", "Uvernight", ""],
+            "charter": ["Uvernight", "Uvernight", "Uvernight", ""],
+            "alias": [],
             "img_path": "83_Orthodox.png"
         },
         {
@@ -1107,7 +1217,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "ZxNX as \"Delaina\"",
             "illustrator": "何呵",
-            "chapter": ["鲲", "鲲", "鲲 fixed by 百九十八", ""],
+            "charter": ["鲲", "鲲", "鲲 fixed by 百九十八", ""],
+            "alias": [],
             "img_path": "84_EndMe.png"
         },
         {
@@ -1118,8 +1229,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Tetrajectory",
             "illustrator": "青鸟",
-            "chapter": ["HaraKuma", "HaraKuma", "HaraKuma", ""],
-            "img_path": "85_ParallelRetrogressionGameVer.png"
+            "charter": ["HaraKuma", "HaraKuma", "HaraKuma", ""],
+            "alias": ["平行衰退", "PR"],
+            "img_path": "85_ParallelRetrogression(GameVer.).png"
         },
         {
             "song_number": 86,
@@ -1129,7 +1241,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Quree",
             "illustrator": "IvyTowers",
-            "chapter": ["NerSAN", "NerSAN", "NerSAN", ""],
+            "charter": ["NerSAN", "NerSAN", "NerSAN", ""],
+            "alias": ["星尘"],
             "img_path": "86_Starduster.png"
         },
         {
@@ -1140,7 +1253,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "ElousΛ.-FZ",
             "illustrator": "DoublePian",
-            "chapter": ["百九十八", "百九十八", "百九十八", ""],
+            "charter": ["百九十八", "百九十八", "百九十八", ""],
+            "alias": ["电子"],
             "img_path": "87_Electron.png"
         },
         {
@@ -1151,12 +1265,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Kry.exe",
             "illustrator": "塔塔",
-            "chapter": [
+            "charter": [
                 "Barbarianerman.exe",
                 "Bσrbσriσnermσn.exe",
                 "Bσrbσriσn∑rmσn.∑x∑",
                 ""
             ],
+            "alias": ["σ", "Σ", "死个妈", "∑", "死个马"],
             "img_path": "88_SIGMA.png"
         },
         {
@@ -1167,12 +1282,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "EnFr",
             "illustrator": "EnFr",
-            "chapter": [
+            "charter": [
                 "One skunk (Ctymax) in Africa",
                 "Hardcore Barbaya",
                 "Two skunks (Ctymax and 晨) in Africa shouting WAHHHHHH!",
                 ""
             ],
+            "alias": ["非洲酋长", "非洲土嗨", "上海的自行车", "王姥姥"],
             "img_path": "89_HardcoreKwaya.png"
         },
         {
@@ -1183,13 +1299,14 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Grand Thaw / Rigël Theatre",
             "illustrator": "Grand Thaw / Rigël Theatre",
-            "chapter": [
+            "charter": [
                 "Barbarianerman",
                 "Snorkel",
                 "Barbarianerman vs. Snorkel",
                 ""
             ],
-            "img_path": "90_Aventyr.png"
+            "alias": ["Äventyr"],
+            "img_path": "90_Äventyr.png"
         },
         {
             "song_number": 91,
@@ -1199,13 +1316,14 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "MALVA.",
             "illustrator": "しえろ",
-            "chapter": [
+            "charter": [
                 "Barbarianerman",
                 "Barbarianerman",
                 "Barbarianerman",
                 ""
             ],
-            "img_path": "91_Trane.png"
+            "alias": ["眼泪", "Träne"],
+            "img_path": "91_Träne.png"
         },
         {
             "song_number": 92,
@@ -1215,8 +1333,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "A-39",
             "illustrator": "犀牛坨动画工坊",
-            "chapter": ["Merry xmAS", "Merry ChristymAxS", "N\\erry Xmas", ""],
-            "img_path": "92_雪降りメリクリ.png"
+            "charter": ["Merry xmAS", "Merry ChristymAxS", "N\\erry Xmas", ""],
+            "alias": ["圣诞机关枪", "雪崩"],
+            "img_path": "92_雪降り、メリクリ.png"
         },
         {
             "song_number": 93,
@@ -1226,12 +1345,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "SCTL",
             "illustrator": "SCTL",
-            "chapter": [
+            "charter": [
                 "Eastern Ailuropoda Gang",
                 "Eastern Ailuropoda Gang",
                 "Eastern Ailuropoda Gang",
                 ""
             ],
+            "alias": ["脑连接", "cc"],
             "img_path": "93_CervelleConnexion.png"
         },
         {
@@ -1242,7 +1362,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "PTB10",
             "illustrator": "geralt",
-            "chapter": ["Cty moyules", "Cty moyules", "Pat Brick Man Mr.C", ""],
+            "charter": ["Cty moyules", "Cty moyules", "Pat Brick Man Mr.C", ""],
+            "alias": [],
             "img_path": "94_modulus.png"
         },
         {
@@ -1253,7 +1374,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Frums",
             "illustrator": "百九十八",
-            "chapter": ["Sillyp", "Sillyp", "百九十八 vs. Barbarianerman", ""],
+            "charter": ["Sillyp", "Sillyp", "百九十八 vs. Barbarianerman", ""],
+            "alias": ["打电话"],
             "img_path": "95_Wavetapper.png"
         },
         {
@@ -1264,13 +1386,14 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "adaptor vs DRIVE.",
             "illustrator": "りゅうら",
-            "chapter": [
+            "charter": [
                 "Eaimo fixed by NerSAN",
                 "Eaimo fixed by NerSAN",
                 "Eaimo vs. CtyNer dancing wildly",
                 ""
             ],
-            "img_path": "96_大和撫子WildDances.png"
+            "alias": [],
+            "img_path": "96_大和撫子-WildDances-.png"
         },
         {
             "song_number": 97,
@@ -1280,7 +1403,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Fl00t",
             "illustrator": "xperz",
-            "chapter": ["JKy", "JKy", "BarbariaNERman vs. JKy", ""],
+            "charter": ["JKy", "JKy", "BarbariaNERman vs. JKy", ""],
+            "alias": [],
             "img_path": "97_Eltaw.png"
         },
         {
@@ -1291,7 +1415,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "iF",
             "illustrator": "あおお/A-ZERO, morph",
-            "chapter": ["阿爽", "NerSAN", "Arenn Saki vs. NerSAN", ""],
+            "charter": ["阿爽", "NerSAN", "Arenn Saki vs. NerSAN", ""],
+            "alias": [],
             "img_path": "98_Initialize.png"
         },
         {
@@ -1302,7 +1427,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "kozato snow",
             "illustrator": "あおお/A-ZERO, morph",
-            "chapter": ["Barbarianerman", "Barbarianerman", "百九十八", ""],
+            "charter": ["Barbarianerman", "Barbarianerman", "百九十八", ""],
+            "alias": ["樱树街道"],
             "img_path": "99_桜樹街道.png"
         },
         {
@@ -1313,8 +1439,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "iF",
             "illustrator": "あおお/A-ZERO, morph",
-            "chapter": ["StupiGGy", "StupiGGy", "StupiGGy", ""],
-            "img_path": "100_GetReady.png"
+            "charter": ["StupiGGy", "StupiGGy", "StupiGGy", ""],
+            "alias": [],
+            "img_path": "100_GetReady!!.png"
         },
         {
             "song_number": 101,
@@ -1324,12 +1451,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "DETRO a.k.a. ルゼ",
             "illustrator": "あおお/A-ZERO, morph",
-            "chapter": [
+            "charter": [
                 "Barbarianerman",
                 "Rikko",
                 "Ctymax in a volcano, very delicious",
                 "Alloces"
             ],
+            "alias": ["火山"],
             "img_path": "101_volcanic.png"
         },
         {
@@ -1340,7 +1468,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "ルゼ",
             "illustrator": "A-Zero Project",
-            "chapter": ["NerSAN", "NerSAN", "縱連打の信者☆無極", ""],
+            "charter": ["NerSAN", "NerSAN", "縱連打の信者☆無極", ""],
+            "alias": ["bga", "BGA", "无极烤串", "纵连打"],
             "img_path": "102_BetterGraphicAnimation.png"
         },
         {
@@ -1351,7 +1480,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "ginkiha",
             "illustrator": "打雷打人（青鸟 modified）",
-            "chapter": ["StupiGGy", "StupiGGy", "Sillyp vs. 阿爽", ""],
+            "charter": ["StupiGGy", "StupiGGy", "Sillyp vs. 阿爽", ""],
+            "alias": [],
             "img_path": "103_XING.png"
         },
         {
@@ -1362,13 +1492,14 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Lime",
             "illustrator": "谷地（青鸟 modified）",
-            "chapter": [
+            "charter": [
                 "Barbarianerman",
                 "Barbarianerman",
                 "Barbarianerman vs. Uvernight",
                 ""
             ],
-            "img_path": "104_FinalStep.png"
+            "alias": [],
+            "img_path": "104_FinalStep!.png"
         },
         {
             "song_number": 105,
@@ -1378,12 +1509,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "USAO",
             "illustrator": "谷地（青鸟 modified）",
-            "chapter": [
+            "charter": [
                 "Barbarianerman",
                 "Barbarianerman",
                 "Gausbon",
                 "百九十八 feat. NerSAN"
             ],
+            "alias": ["火神", "古神", "火球", "克图格亚", "🐍🐳"],
             "img_path": "105_Cthugha.png"
         },
         {
@@ -1394,7 +1526,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Cashew",
             "illustrator": "ADZUKI",
-            "chapter": ["with U", "with U", "with U", ""],
+            "charter": ["with U", "with U", "with U", ""],
+            "alias": [],
             "img_path": "106_WithYou.png"
         },
         {
@@ -1405,12 +1538,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Joulez",
             "illustrator": "ASXX",
-            "chapter": [
+            "charter": [
                 "Barbarianerman",
                 "HaraKuma",
                 "Barbarianerman vs. HaraKuma",
                 ""
             ],
+            "alias": ["UT"],
             "img_path": "107_UnorthodoxThoughts.png"
         },
         {
@@ -1421,7 +1555,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Z ClaxX & SumaiLight",
             "illustrator": "佑木いずみ & Ctymax",
-            "chapter": ["阿爽", "NerSAN", "NerSAN vs. 阿爽", ""],
+            "charter": ["阿爽", "NerSAN", "NerSAN vs. 阿爽", ""],
+            "alias": ["世界末日"],
             "img_path": "108_Apocalyptic.png"
         },
         {
@@ -1432,7 +1567,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "椒盐菠萝",
             "illustrator": "CEM",
-            "chapter": ["野从菠萝", "野从菠萝", "椒盐倪尔", ""],
+            "charter": ["野从菠萝", "野从菠萝", "椒盐倪尔", ""],
+            "alias": [],
             "img_path": "109_游园地.png"
         },
         {
@@ -1443,7 +1579,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "KAH",
             "illustrator": "手鞠鈴 & 自動車 原付",
-            "chapter": ["NerSAN", "NerSANN", "NerSANNN", ""],
+            "charter": ["NerSAN", "NerSANN", "NerSANNN", ""],
+            "alias": ["美有姬"],
             "img_path": "110_energytrixxx.png"
         },
         {
@@ -1454,7 +1591,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Silentroom",
             "illustrator": "駿",
-            "chapter": ["野从", "StupiGGy", "森德雷斯 vs. 百九十八", ""],
+            "charter": ["野从", "StupiGGy", "森德雷斯 vs. 百九十八", ""],
+            "alias": ["你和驴", "驴"],
             "img_path": "111_Nhelv.png"
         },
         {
@@ -1465,8 +1603,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Sera Amagi",
             "illustrator": "Hachimitsu☆Boy",
-            "chapter": ["-JKy-", "-JKy-", "-JKy-", ""],
-            "img_path": "112_Arkhei.png"
+            "charter": ["-JKy-", "-JKy-", "-JKy-", ""],
+            "alias": [],
+            "img_path": "112_-Arkhei-.png"
         },
         {
             "song_number": 113,
@@ -1476,7 +1615,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Zris",
             "illustrator": "Eridani",
-            "chapter": ["Alloces", "NerSAN", "Snorkel vs. NerSAN", ""],
+            "charter": ["Alloces", "NerSAN", "Snorkel vs. NerSAN", ""],
+            "alias": ["三头犬", "刻耳柏洛斯", "三头狗", "刻俄柏"],
             "img_path": "113_Kerberos.png"
         },
         {
@@ -1487,8 +1627,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "siqlo",
             "illustrator": "出前 x nekomiya",
-            "chapter": ["Rikko", "Rikko & TangScend", "TangScend", ""],
-            "img_path": "114_parsey.png"
+            "charter": ["Rikko", "Rikko & TangScend", "TangScend", ""],
+            "alias": ["欧芹", "芹菜", "parsley"],
+            "img_path": "114_ρars/ey.png"
         },
         {
             "song_number": 115,
@@ -1498,7 +1639,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Halv",
             "illustrator": "汉堡",
-            "chapter": ["J.R", "晨", "Phigros Charting Team", ""],
+            "charter": ["J.R", "晨", "Phigros Charting Team", ""],
+            "alias": ["脑震荡"],
             "img_path": "115_Concvssion.png"
         },
         {
@@ -1509,13 +1651,14 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "A-39/沙包P",
             "illustrator": "爱39的Konya",
-            "chapter": [
+            "charter": [
                 "merry CNrisTimas",
                 "merry XM AS",
                 "NerSANTA vs. BarbarianerSLEDGE",
                 ""
             ],
-            "img_path": "116_ジングルベルJingleBell.png"
+            "alias": ["圣诞", "初音机关枪"],
+            "img_path": "116_ジングルベル(JingleBell).png"
         },
         {
             "song_number": 117,
@@ -1525,8 +1668,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "HyuN & KLYDIX",
             "illustrator": "ZG",
-            "chapter": ["Rikko", "Barbarianerman", "Likey & 198ar", ""],
-            "img_path": "117_TimetoNightSkyfeatLeeYuJin.png"
+            "charter": ["Rikko", "Barbarianerman", "Likey & 198ar", ""],
+            "alias": ["ttns", "TTNS"],
+            "img_path": "117_TimetoNightSky(feat.LeeYuJin).png"
         },
         {
             "song_number": 118,
@@ -1536,7 +1680,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Limpid",
             "illustrator": "ZG",
-            "chapter": ["NerSAN", "NerSAN", "阿爽", ""],
+            "charter": ["NerSAN", "NerSAN", "阿爽", ""],
+            "alias": ["牛角"],
             "img_path": "118_HAZARD.png"
         },
         {
@@ -1547,12 +1692,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "D_AAN",
             "illustrator": "ZG",
-            "chapter": [
+            "charter": [
                 "Pcat",
                 "Another cat",
                 "NerSAN vs. Ctymax as \"泥头鱼\"",
                 ""
             ],
+            "alias": ["黑AM", "amkalpa", "病女", "am"],
             "img_path": "119_AnotherMe.png"
         },
         {
@@ -1563,8 +1709,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "HAMA",
             "illustrator": "Arahosi",
-            "chapter": ["XMT小咩兔", "XMT小咩兔", "XMT小咩兔", ""],
-            "img_path": "120_DontNeverAround.png"
+            "charter": ["XMT小咩兔", "XMT小咩兔", "XMT小咩兔", ""],
+            "alias": ["dna", "Don't"],
+            "img_path": "120_Don'tNeverAround.png"
         },
         {
             "song_number": 121,
@@ -1574,12 +1721,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "ぐるたみん",
             "illustrator": "LINUS",
-            "chapter": [
+            "charter": [
                 "其一 呼吸尚存的标志",
                 "其二 向前迈进的理由",
                 "其三 我所存在的证明",
                 ""
             ],
+            "alias": ["电阻", "绿头发", "绿魔王"],
             "img_path": "121_RESSiSTANCE.png"
         },
         {
@@ -1590,7 +1738,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "z1on & kyrrin",
             "illustrator": "海产",
-            "chapter": ["Bear", "Bear", "XMT & 198", ""],
+            "charter": ["Bear", "Bear", "XMT & 198", ""],
+            "alias": [],
             "img_path": "122_Dreamland.png"
         },
         {
@@ -1601,7 +1750,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Justin Dai",
             "illustrator": "艾是Abby",
-            "chapter": ["阿爽", "Another Stage", "TimiTini →\"X\"← 阿爽", ""],
+            "charter": ["阿爽", "Another Stage", "TimiTini →\"X\"← 阿爽", ""],
+            "alias": [],
             "img_path": "123_AnotherRound.png"
         },
         {
@@ -1612,12 +1762,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "李化禹",
             "illustrator": "笔记RE",
-            "chapter": [
+            "charter": [
                 "RTH",
                 "Likey",
                 "Barbarianerman & NerSAN in the ICU",
                 ""
             ],
+            "alias": ["支付宝到账"],
             "img_path": "124_996.png"
         },
         {
@@ -1628,7 +1779,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Ray Nautica & Reku Mochizuki",
             "illustrator": "Keiby.comics",
-            "chapter": ["Barbarianerman", "XMT小咩兔", "Future BarbarXMT", ""],
+            "charter": ["Barbarianerman", "XMT小咩兔", "Future BarbarXMT", ""],
+            "alias": ["ftr", "fm"],
             "img_path": "125_FutureMind.png"
         },
         {
@@ -1639,7 +1791,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Daison",
             "illustrator": "鲸弑",
-            "chapter": ["Uvernight", "Uvernight", "百九十八", ""],
+            "charter": ["Uvernight", "Uvernight", "百九十八", ""],
+            "alias": ["冷光"],
             "img_path": "126_Luminescent.png"
         },
         {
@@ -1650,12 +1803,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "MYUKKE.",
             "illustrator": "cycats",
-            "chapter": [
+            "charter": [
                 "M3d1uM & 百九十八",
                 "M3d1uM & 百九十八",
                 "百九十八 busting 阿爽",
                 ""
             ],
+            "alias": ["福利自动爆", "脑裂2", "FAB"],
             "img_path": "127_FULiAUTOBUSTER.png"
         },
         {
@@ -1666,7 +1820,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "TangJuan",
             "illustrator": "cycats",
-            "chapter": ["Likey", "JKy", "Likey & 百九十八", ""],
+            "charter": ["Likey", "JKy", "Likey & 百九十八", ""],
+            "alias": [],
             "img_path": "128_IMustSayNo.png"
         },
         {
@@ -1677,12 +1832,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "rN",
             "illustrator": "rN @ 湯元画伯",
-            "chapter": [
+            "charter": [
                 "BlindForest",
                 "BlindForest 『Observing』",
                 "Jeitie & CorruptedEntity 『Hollow』",
                 ""
             ],
+            "alias": ["眼睛", "眼疾", "op", "眼瞎"],
             "img_path": "129_opia.png"
         },
         {
@@ -1693,7 +1849,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "アリスシャッハと魔法の楽団",
             "illustrator": "Lanota © Noxy Games Inc. ",
-            "chapter": ["R.", "B.", "Rikko & 198", ""],
+            "charter": ["R.", "B.", "Rikko & 198", ""],
+            "alias": ["启示录"],
             "img_path": "130_Apocalypse.png"
         },
         {
@@ -1704,7 +1861,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Silentroom",
             "illustrator": "Lanota © Noxy Games Inc. ",
-            "chapter": ["Barbarianerman & J.R", "RTH", "Gausbon", ""],
+            "charter": ["Barbarianerman & J.R", "RTH", "Gausbon", ""],
+            "alias": ["点划天堂", "点滑"],
             "img_path": "131_Protoflicker.png"
         },
         {
@@ -1715,12 +1873,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Nothing But Requiem feat. Aikapin & Chiyoko",
             "illustrator": "Lanota © Noxy Games Inc. ",
-            "chapter": [
+            "charter": [
                 "Nothing But Uvernight",
                 "Nothing But Likey",
                 "Nothing But Ner & Pcat",
                 ""
             ],
+            "alias": ["蓝界", "天际蓝", "HB铅笔"],
             "img_path": "132_HorizonBlue.png"
         },
         {
@@ -1731,11 +1890,21 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "t+pazolite",
             "illustrator": "Lanota © Noxy Games Inc. ",
-            "chapter": [
+            "charter": [
                 "M3d1uM",
                 "M3d1uM",
                 "We are the Miserable",
                 "Pat Brick Man Mr.C & Mr.B"
+            ],
+            "alias": [
+                "倒霉蛋",
+                "惨孩子",
+                "你节操都喂狗啦",
+                "yatm",
+                "抽水马桶",
+                "你真惨",
+                "倒霉蛋子",
+                "管风琴"
             ],
             "img_path": "133_YouaretheMiserable.png"
         },
@@ -1747,7 +1916,15 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Maozon",
             "illustrator": "Lanota © Noxy Games Inc. ",
-            "chapter": ["空の希", "空の希", "ST AS is XMT", "百九十八"],
+            "charter": ["空の希", "空の希", "ST AS is XMT", "百九十八"],
+            "alias": [
+                "Stasis",
+                "炸船",
+                "stasis",
+                "船",
+                "停滞",
+                "你别想收了这首歌"
+            ],
             "img_path": "134_Stasis.png"
         },
         {
@@ -1758,13 +1935,14 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "U-ske feat. 棗いつき",
             "illustrator": "緑風マルト",
-            "chapter": [
+            "charter": [
                 "Clutter & Barbarianerman",
                 "Clutter & Barbarianerman",
                 "小咩兔、参上",
                 ""
             ],
-            "img_path": "135_いざ参ります.png"
+            "alias": ["参上", "嗨害嗨来了嗷", "いざ、参ります", "速食面"],
+            "img_path": "135_いざ、参ります.png"
         },
         {
             "song_number": 136,
@@ -1774,7 +1952,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "月見静華 vs. LUNARiUM",
             "illustrator": "TNiK",
-            "chapter": ["XMT小咩兔", "XMT小咩兔", "iv", ""],
+            "charter": ["XMT小咩兔", "XMT小咩兔", "iv", ""],
+            "alias": [],
             "img_path": "136_月下缭乱.png"
         },
         {
@@ -1785,8 +1964,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "ETIA. feat. Jenga",
             "illustrator": "わっふゑ",
-            "chapter": ["Rikko", "Rikko", "NerSAN feat. Takanashi Rikko", ""],
-            "img_path": "137_OnAndOn.png"
+            "charter": ["Rikko", "Rikko", "NerSAN feat. Takanashi Rikko", ""],
+            "alias": ["OAO", "ONO", "oao", "ono"],
+            "img_path": "137_OnAndOn!!.png"
         },
         {
             "song_number": 138,
@@ -1796,12 +1976,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Cosmograph",
             "illustrator": "Photonskyto",
-            "chapter": [
+            "charter": [
                 "[!!12:l<l<ο!!]",
                 "Rikko",
                 "TangScend -Err0rederci-",
                 ""
             ],
+            "alias": ["数据错误", "DataError"],
             "img_path": "138_DataErr0r.png"
         },
         {
@@ -1812,7 +1993,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "姜米條&SumaiLight",
             "illustrator": "御坂果子",
-            "chapter": ["晨", "晨", "Sillyp vs 晨", "J0(_)I2|\\|3y'5 3|\\||)"],
+            "charter": ["晨", "晨", "Sillyp vs 晨", "J0(_)I2|\\|3y'5 3|\\||)"],
+            "alias": ["阴影", "傻豆"],
             "img_path": "139_Shadow.png"
         },
         {
@@ -1823,7 +2005,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "姜米條",
             "illustrator": "笔记RE",
-            "chapter": ["波之所杂", "波之所杂", "倪之所爽", ""],
+            "charter": ["波之所杂", "波之所杂", "倪之所爽", ""],
+            "alias": [],
             "img_path": "140_心之所向.png"
         },
         {
@@ -1834,12 +2017,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "姜米條",
             "illustrator": "群青kurara",
-            "chapter": [
+            "charter": [
                 "Ner, the inferior",
                 "Ner, the inferior",
                 "JKy, the inferior",
                 ""
             ],
+            "alias": [],
             "img_path": "141_inferior.png"
         },
         {
@@ -1850,8 +2034,18 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Aoi",
             "illustrator": "Ctymax vs. TNiK feat. 出前",
-            "chapter": ["b.b.n.m.", "h.o.m.e.e.e.", "s.t.p.g.", ""],
-            "img_path": "142_csqn.png"
+            "charter": ["b.b.n.m.", "h.o.m.e.e.e.", "s.t.p.g.", ""],
+            "alias": [
+                "c.s.q.n.",
+                "厕所青年",
+                "草酸氢钠",
+                "csgo",
+                "必要条件",
+                "厕所请你",
+                "KSCN",
+                "碳.硫.氢.氮."
+            ],
+            "img_path": "142_c.s.q.n..png"
         },
         {
             "song_number": 143,
@@ -1861,7 +2055,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Turquoise(DRIVE.+Nota)",
             "illustrator": "林语",
-            "chapter": ["Brave Eaimo", "Brave Eaimo", "Brave Eaimo", ""],
+            "charter": ["Brave Eaimo", "Brave Eaimo", "Brave Eaimo", ""],
+            "alias": [],
             "img_path": "143_BraveNotes.png"
         },
         {
@@ -1872,12 +2067,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "茶鸣拾贰律",
             "illustrator": "茶鸣拾贰律",
-            "chapter": [
+            "charter": [
                 "Barbarianerman",
                 "Barbarianerman",
                 "NerSAN sipping XMTea",
                 ""
             ],
+            "alias": [],
             "img_path": "144_盏茗.png"
         },
         {
@@ -1888,12 +2084,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "茶鸣拾贰律",
             "illustrator": "茶鸣拾贰律",
-            "chapter": [
+            "charter": [
                 "生根发芽的小咩兔",
                 "逆流而上的小咩兔",
                 "Hook vs. _鉄",
                 ""
             ],
+            "alias": ["绫华"],
             "img_path": "145_青芽.png"
         },
         {
@@ -1904,7 +2101,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Abyss Idols",
             "illustrator": "Sak",
-            "chapter": ["M3d1uM", "M3d1uM", "JKy", ""],
+            "charter": ["M3d1uM", "M3d1uM", "JKy", ""],
+            "alias": [],
             "img_path": "146_EternalSnow.png"
         },
         {
@@ -1915,7 +2113,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Abyss Idols",
             "illustrator": "Robin",
-            "chapter": ["StupiGGy", "StupiGGy", "Raiky Season", ""],
+            "charter": ["StupiGGy", "StupiGGy", "Raiky Season", ""],
+            "alias": ["雨季"],
             "img_path": "147_RainySeason.png"
         },
         {
@@ -1926,8 +2125,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Plastic Fruits",
             "illustrator": "青鸟",
-            "chapter": ["TimiTini", "TimiTini", "XMT小咩兔", ""],
-            "img_path": "148_ElCondorPasaPhigrosEdit.png"
+            "charter": ["TimiTini", "TimiTini", "XMT小咩兔", ""],
+            "alias": ["ecp", "el", "钟楼", "二人转", "El"],
+            "img_path": "148_ElCondorPasa(PhigrosEdit).png"
         },
         {
             "song_number": 149,
@@ -1937,12 +2137,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "K-forest",
             "illustrator": "圆规compasses",
-            "chapter": [
+            "charter": [
                 "Barbarianerman",
                 "Barbarianerman",
                 "百九十八 vs Barbarianerman",
                 "百九十八"
             ],
+            "alias": ["bo", "常驻sp"],
             "img_path": "149_BreakOver.png"
         },
         {
@@ -1953,13 +2154,14 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Scaler & Mestie & 果丸哒呦",
             "illustrator": "圆规compasses",
-            "chapter": [
+            "charter": [
                 "Believe Ctymax",
                 "Believe TimiTini",
                 "Believe Ctymax & TimiTini",
                 ""
             ],
-            "img_path": "150_BelieveLightfeat果丸哒呦.png"
+            "alias": ["信光"],
+            "img_path": "150_BelieveLight(feat.果丸哒呦).png"
         },
         {
             "song_number": 151,
@@ -1969,7 +2171,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "VeetaCrush vs. [itsu(feat.itsu)]",
             "illustrator": "林语",
-            "chapter": ["JKy", "JKy", "晨", ""],
+            "charter": ["JKy", "JKy", "晨", ""],
+            "alias": ["pds", "记忆之桥"],
             "img_path": "151_Pontdessouvenirs.png"
         },
         {
@@ -1980,7 +2183,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "BLACK 0",
             "illustrator": "BLACK 0",
-            "chapter": ["Ctymax", "Su1fuR", "KillJoy", ""],
+            "charter": ["Ctymax", "Su1fuR", "KillJoy", ""],
+            "alias": [],
             "img_path": "152_青丘.png"
         },
         {
@@ -1991,7 +2195,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "茶鸣拾贰律",
             "illustrator": "茶鸣拾贰律",
-            "chapter": ["『流』年大顺", "『流』年大顺", "『兔』年大吉", ""],
+            "charter": ["『流』年大顺", "『流』年大顺", "『兔』年大吉", ""],
+            "alias": [],
             "img_path": "153_瓷岁.png"
         },
         {
@@ -2002,7 +2207,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "茶鸣拾贰律",
             "illustrator": "茶鸣拾贰律",
-            "chapter": ["Barbarianerman", "Barbarianerman", "Gino", ""],
+            "charter": ["Barbarianerman", "Barbarianerman", "Gino", ""],
+            "alias": [],
             "img_path": "154_Feast远东之宴.png"
         },
         {
@@ -2013,7 +2219,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Ponchi♪ feat. はぁち",
             "illustrator": "LESYEF & 藍瀬 まなみ",
-            "chapter": ["Su1fuR", "Alloces feat. Uvernight", "Alloces", ""],
+            "charter": ["Su1fuR", "Alloces feat. Uvernight", "Alloces", ""],
+            "alias": ["地狱城"],
             "img_path": "155_インフェルノシティ.png"
         },
         {
@@ -2024,7 +2231,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Iriss-Frantzz",
             "illustrator": "Iriss=Frantzz=s-don",
-            "chapter": ["Lumiere", "CorruptedEntity & 野从", "_鉄", ""],
+            "charter": ["Lumiere", "CorruptedEntity & 野从", "_鉄", ""],
+            "alias": [],
             "img_path": "156_Upshift.png"
         },
         {
@@ -2035,8 +2243,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "LeaF",
             "illustrator": "笔记RE/海产",
-            "chapter": ["R/kko", "&ikko", "1÷98", ""],
-            "img_path": "157_PoisonANDORAffection.png"
+            "charter": ["R/kko", "&ikko", "1÷98", ""],
+            "alias": ["÷", "潘多拉", "PANDORA"],
+            "img_path": "157_PoisonAND÷ORAffection.png"
         },
         {
             "song_number": 158,
@@ -2046,7 +2255,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Sobrem × Silentroom",
             "illustrator": "Harkiadel",
-            "chapter": ["Barbarianerman", "IMD_6", "_鉄", ""],
+            "charter": ["Barbarianerman", "IMD_6", "_鉄", ""],
+            "alias": ["随机"],
             "img_path": "158_Random.png"
         },
         {
@@ -2057,7 +2267,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "seatrus",
             "illustrator": "2AI4wU4",
-            "chapter": ["零號宇夜", "壹號阿爽", "Pcat【零】198", ""],
+            "charter": ["零號宇夜", "壹號阿爽", "Pcat【零】198", ""],
+            "alias": ["零号车辆", "灵车"],
             "img_path": "159_零號車輛.png"
         },
         {
@@ -2068,13 +2279,14 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "1112 vs. Star＊",
             "illustrator": "老张",
-            "chapter": [
+            "charter": [
                 "Jαckψ a.k.a JKy",
                 "Jαckψ",
                 "Jαckψ feat. Βαρβαροςαντρας",
                 ""
             ],
-            "img_path": "160_Poseidon.png"
+            "alias": ["波塞冬"],
+            "img_path": "160_Ποσειδών.png"
         },
         {
             "song_number": 161,
@@ -2084,12 +2296,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "A-39/沙包P",
             "illustrator": "knife美工刀",
-            "chapter": [
+            "charter": [
                 "急流に巻き込まれ",
                 "対流に巻き込まれ",
                 "乱流に巻き込まれ",
                 ""
             ],
+            "alias": ["水"],
             "img_path": "161_WATER.png"
         },
         {
@@ -2100,8 +2313,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Rinth_live",
             "illustrator": "L-sp4",
-            "chapter": ["奇跡の希", "奇跡の希", "奇跡の希 feat. 奇跡の従", ""],
-            "img_path": "162_MiracleForestVIPMix.png"
+            "charter": ["奇跡の希", "奇跡の希", "奇跡の希 feat. 奇跡の従", ""],
+            "alias": ["油条森林"],
+            "img_path": "162_MiracleForest(VIPMix).png"
         },
         {
             "song_number": 163,
@@ -2111,12 +2325,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Dachs",
             "illustrator": "わっふゑ",
-            "chapter": [
+            "charter": [
                 "百九十八",
                 "百九十八",
                 "StupiGGy vs. 百九十八 ft. 野从",
                 ""
             ],
+            "alias": ["灯球"],
             "img_path": "163_MOBILYS.png"
         },
         {
@@ -2127,13 +2342,14 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "ユメミド",
             "illustrator": "何呵",
-            "chapter": [
+            "charter": [
                 "Arenn Saki as \"mAze\"",
                 "Arenn Saki as \"myStery\"",
                 "Arenn Saki as \"lAβyrinS\"",
                 "CN_115 as \"prediCameNt\""
             ],
-            "img_path": "164_Lyrith迷宮リリス.png"
+            "alias": ["迷宫", "滚筒洗衣机", "迷宫莉莉丝"],
+            "img_path": "164_Lyrith-迷宮リリス-.png"
         },
         {
             "song_number": 165,
@@ -2143,12 +2359,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Rabpit",
             "illustrator": "青鸟",
-            "chapter": [
+            "charter": [
                 "\"Manufacturer\" ~ Rikko",
                 "\"Creator\" ~ StupiGGy",
                 "\"Demiurge\" ~ Dawn",
                 ""
             ],
+            "alias": ["造物主"],
             "img_path": "165_Demiurge.png"
         },
         {
@@ -2159,7 +2376,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Forged Reigns",
             "illustrator": "Jeffery",
-            "chapter": ["Alloces", "Alloces", "Sillyp & Alloces", ""],
+            "charter": ["Alloces", "Alloces", "Sillyp & Alloces", ""],
+            "alias": [],
             "img_path": "166_Demonkin.png"
         },
         {
@@ -2170,8 +2388,9 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Rinth_live",
             "illustrator": "Tsuioku",
-            "chapter": ["NerSAN", "NerSAN", "NerSAN & 百九十八", ""],
-            "img_path": "167_Re_NascencePsystyleVer.png"
+            "charter": ["NerSAN", "NerSAN", "NerSAN & 百九十八", ""],
+            "alias": ["太空人", "新生", "Re"],
+            "img_path": "167_Re_Nascence(PsystyleVer.).png"
         },
         {
             "song_number": 168,
@@ -2181,7 +2400,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "kanoryo",
             "illustrator": "MOAI WORKS",
-            "chapter": ["TimiTini", "TimiTini", "阿爽 eat Ctymax", ""],
+            "charter": ["TimiTini", "TimiTini", "阿爽 eat Ctymax", ""],
+            "alias": ["ark"],
             "img_path": "168_Ark.png"
         },
         {
@@ -2192,12 +2412,13 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "S9ryne",
             "illustrator": "月亮酱",
-            "chapter": [
+            "charter": [
                 "Barbarianerman",
                 "NerSAN feat. Pcat",
                 "BarbariaNerSAN feat. Snorkel",
                 ""
             ],
+            "alias": ["汤姆惨叫", "机甲", "威廉尖叫", "ad", "AD钙奶", "AD"],
             "img_path": "169_AfterDawn.png"
         },
         {
@@ -2208,13 +2429,14 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "Reku Mochizuki",
             "illustrator": "knife美工刀",
-            "chapter": [
+            "charter": [
                 "while(TangScend<=TangScend);",
                 "while(TangScend>=TangScend);",
                 "while(TangScend==TangScend);",
                 "while(TangScend=TangScend);"
             ],
-            "img_path": "170_INFiNiTEENERZYOverdoze.png"
+            "alias": ["IEO", "ieo", "最新最热配置"],
+            "img_path": "170_INFiNiTEENERZY-Overdoze-.png"
         },
         {
             "song_number": 171,
@@ -2224,7 +2446,8 @@
             "level": ["EZ", "HD", "IN", "AT"],
             "composer": "",
             "illustrator": "L-sp4",
-            "chapter": ["Catcats", "", "", ""],
+            "charter": ["Catcats", "", "", ""],
+            "alias": [],
             "img_path": "171_Introduction.png"
         }
     ]
