@@ -17,7 +17,9 @@ from .pgrapi import PhigrosUnlimitedAPI
 from .score import Phigros
 from .user import User
 from .main import main_phigros
+from .song import Song,add_alias,get_song_list,get_alias
 from .variable import prefix
+
 
 channel = Channel.current()
 channel.name('phigros')
