@@ -89,7 +89,8 @@ class Song:
         name = name.lower().replace(' ', '')
 
         for _, song in cls.instances.items():
-            if name in song.alias:
+            temp = [alias.lower() for alias in song.alias]
+            if name in temp:
                 return song
 
         result = []

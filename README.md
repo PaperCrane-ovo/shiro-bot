@@ -25,6 +25,9 @@
   - [ ] 猜歌系统(优先度较低,可能不会做)
   - [ ] ...
   > 虽然 **ArcaeaUnlimitedApi** 可用,但有偷妈头这么厉害的bot在,还是先写其他功能比较好.
+
+  [phigros 模块](./modules/phigros/README.md)
+
 - 娱乐模块
   - [ ] 人生重开模拟器
   - [ ] 聊天功能(炼个模型 之后再说)
@@ -38,5 +41,7 @@
   - [ ] 自动审核入群( pku 专供)
   - [ ] ...?
 
+
+  [manager 模块](./modules/manager/README.md)
 ## License
 遵循mirai开源协议,本bot采用AGPLv3开源.请注意,AGPLv3是传染性开源协议.
