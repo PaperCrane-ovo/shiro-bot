@@ -52,6 +52,27 @@ class Song:
 
     def __str__(self):
         '''返回歌曲信息'''
+        song_str = f'''{self.song_number}.{self.song_name}:曲师:{self.composer},插画:{self.illustrator}\n'''
+        for i in range(3):
+            song_str += f'''{self.level[i]}:{self.difficulty[i]},charter:{self.charter[i]}\n'''
+        if self.difficulty[3] != 0.0:
+            song_str += f'''{self.level[3]}:{self.difficulty[3]},charter:{self.charter[3]}\n'''
+        return song_str
+
+    @property
+    def song_intro(self):
+        '''返回歌曲简介'''
+        return f'{self.song_number}.{self.song_name}({self.composer})'
+
+    @property
+    def song_inform(self):
+        '''返回歌曲信息'''
+        song_str = f'''{self.song_number}.{self.song_name}:曲师:{self.composer},插画:{self.illustrator}\n'''
+        for i in range(3):
+            song_str += f'''{self.level[i]}:{self.difficulty[i]},charter:{self.charter[i]}\n'''
+        if self.difficulty[3] != 0.0:
+            song_str += f'''{self.level[3]}:{self.difficulty[3]},charter:{self.charter[3]}\n'''
+        return song_str
 
     @classmethod
     def dump2json(cls, file_path):
@@ -62,14 +83,42 @@ class Song:
         with open(file_path, 'w', encoding='utf-8') as f:
             json5.dump(song_dict, f, indent=4, ensure_ascii=False)
 
+    @classmethod
+    def search_song_by_alias(cls, name: str):
+        '''通过别名和本名搜索歌曲'''
+        name = name.lower().replace(' ', '')
+
+        for _, song in cls.instances.items():
+            temp = [alias.lower() for alias in song.alias]
+            if name in temp:
+                return song
+
+        result = []
+
+        for _, song in cls.instances.items():
+            if name in song.song_id.split('.')[0].lower():
+                result.append(song)
+        if len(result) == 1:
+            return result[0]
+        elif len(result) > 1:
+            return result
+        else:
+            # TODO: 模糊匹配
+            return None
+
+    @classmethod
+    def search_song_by_number(cls, number: int):
+        '''通过歌曲编号搜索歌曲'''
+
+        return cls.instances_list[number-1]
+
 
 if __name__ == '__main__':
     Song.read_songs_from_file(os.path.join(
         os.path.dirname(__file__), 'data', 'song.json'))
     Song.handle_songs()
-    with open(os.path.join(os.path.dirname(__file__), 'data', 'alias.txt'), 'r', encoding='utf-8') as f:
-        for line in f.readlines():
-            alias, songid = line.split()
-            Song.instances[songid].alias.append(alias)
+    for _, song in Song.instances.items():
+        song.alias = list({alias.lower() for alias in song.alias})
+
     Song.dump2json(os.path.join(
         os.path.dirname(__file__), 'data', 'song.json'))
