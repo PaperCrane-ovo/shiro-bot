@@ -47,7 +47,7 @@ async def add_alias(bot: Ariadne,
 
     song_number = int(args[0])
     alias = args[1:]
-    song = Song.instances_list[song_number-1]
+    song = Song.instances_list[song_number]
 
     for i in alias:
         if i in song.alias:
@@ -103,6 +103,6 @@ async def get_alias(bot: Ariadne,
         await bot.send_group_message(group, MessageChain(help_text), quote=source)
         return
     song_number = int(args[0])
-    song = Song.instances_list[song_number-1]
+    song = Song.instances_list[song_number]
     await bot.send_group_message(group, MessageChain(f'当前别名有{song.alias}'), quote=source)
     return

@@ -46,7 +46,7 @@ class Song:
         self.illustrator = illustrator
         self.charter = charter
         self.alias = alias
-        self.img_path = f'{str(song_number)+"_"+song_name.replace(" ", "")}.png'
+        self.img_path = f'{str(song_number)+"_"+song_id.split(".")[0]}.png'
         Song.instances[song_id] = self
         Song.instances_list.append(self)
 
@@ -110,15 +110,13 @@ class Song:
     def search_song_by_number(cls, number: int):
         '''通过歌曲编号搜索歌曲'''
 
-        return cls.instances_list[number-1]
+        return cls.instances_list[number]
 
 
 if __name__ == '__main__':
     Song.read_songs_from_file(os.path.join(
         os.path.dirname(__file__), 'data', 'song.json'))
     Song.handle_songs()
-    for _, song in Song.instances.items():
-        song.alias = list({alias.lower() for alias in song.alias})
 
     Song.dump2json(os.path.join(
         os.path.dirname(__file__), 'data', 'song.json'))
