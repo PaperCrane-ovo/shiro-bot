@@ -24,7 +24,8 @@
   - [x] 曲目信息查询
   - [ ] 猜歌系统(优先度较低,可能不会做)
   - [ ] ...
-  > 虽然 **ArcaeaUnlimitedApi** 可用,但有偷妈头这么厉害的bot在,还是先写其他功能比较好.
+  > ~~虽然 **ArcaeaUnlimitedApi** 可用,但有偷妈头这么厉害的bot在,还是先写其他功能比较好.~~
+  > **ArcaeaUnlimitedApi** 已不可用,开发组已停止维护,616sb.本bot可能会考虑使用其他方式增加arcaea模块.(只是可能)
 
   [phigros 模块](./modules/phigros/README.md)
 
