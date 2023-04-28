@@ -4,3 +4,4 @@ graia-saya
 graia-amnesia
 graia-scheduler
 graiax-shortcut
+json5
