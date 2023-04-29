@@ -21,6 +21,7 @@ from .main import main_phigros, bind_session_token
 from .song import Song
 from .alias import add_alias, get_alias, get_song_list
 from .variable import prefix
+from .manager import update_song_list
 
 
 channel = Channel.current()
