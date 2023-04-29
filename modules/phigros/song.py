@@ -46,7 +46,7 @@ class Song:
         self.illustrator = illustrator
         self.charter = charter
         self.alias = alias
-        self.img_path = f'{str(song_number)+"_"+song_id.split(".")[0]}.png'
+        self.img_path = f'{song_number}.png'
         Song.instances[song_id] = self
         Song.instances_list.append(self)
 

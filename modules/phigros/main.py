@@ -61,17 +61,20 @@ async def main_phigros(bot: Ariadne,
             pgr = Phigros(player)
 
             b19 = await pgr.best19()
-            if '--nf' in args:  # not forward
-                await bot.send_group_message(group, MessageChain([b19]))
 
-            else:
-                forward = ForwardNode(
-                    target=bot.account,
-                    time=datetime.now(),
-                    message=MessageChain([b19]),  # type: ignore
-                    name='真白鹤甜甜'
-                )
-                return await bot.send_group_message(group, MessageChain(Forward([forward])))
+            # 增加了图片版功能,所以转发功能移除.
+            await bot.send_group_message(group, MessageChain([b19]), quote=source)
+
+            return
+
+            # else:
+            #     forward = ForwardNode(
+            #         target=bot.account,
+            #         time=datetime.now(),
+            #         message=MessageChain([b19]),  # type: ignore
+            #         name='真白鹤甜甜'
+            #     )
+            #     return await bot.send_group_message(group, MessageChain(Forward([forward])))
 
         case 'song':
             if len(args) == 1 and args[0].isdigit():
@@ -125,7 +128,7 @@ async def main_phigros(bot: Ariadne,
                 ai_template, song = random_song_aichan()
                 if use_image:
                     message_chain = MessageChain(
-                        [Image(path=dir_name + '/phigros曲绘/' +
+                        [Image(path=dir_name + '/assets/' +
                                song['img_path']), ai_template]
                     )
                 else:

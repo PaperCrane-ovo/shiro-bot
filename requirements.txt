@@ -5,3 +5,5 @@ graia-amnesia
 graia-scheduler
 graiax-shortcut
 json5
+opencv-python
+pillow
