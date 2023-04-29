@@ -28,6 +28,7 @@
 
   [phigros 模块](./modules/phigros/README.md)
 
+
 - 娱乐模块
   - [ ] 人生重开模拟器
   - [ ] 聊天功能(炼个模型 之后再说)
@@ -43,5 +44,9 @@
 
 
   [manager 模块](./modules/manager/README.md)
+
+
+附上目前的新功能: 图片版 b19 示例一张:
+![](images/exampleB19.png)
 ## License
 遵循mirai开源协议,本bot采用AGPLv3开源.请注意,AGPLv3是传染性开源协议.
