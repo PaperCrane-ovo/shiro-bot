@@ -33,12 +33,15 @@ async def reload_modules(bot: Ariadne,
     重载模块
 
     Parameters:
+    ------------------
         bot: Ariadne对象
         friend: Friend对象
         message: MessageChain对象
         source: Source对象
 
-    Returns:None
+    Returns:
+    --------------
+    None
     '''
     with open(f'{dir_name}/admins.json', 'r', encoding='utf-8') as f:
         admins = json5.load(f)['superadmin']  # type: ignore
