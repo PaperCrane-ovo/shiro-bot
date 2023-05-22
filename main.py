@@ -27,7 +27,7 @@ port = account['port']
 
 bot = Ariadne(
     connection=config(
-        qq,
+        int(qq),
         verify_key,
         HttpClientConfig(host=f"http://localhost:{port}"),
         WebsocketClientConfig(host=f"http://localhost:{port}"),
