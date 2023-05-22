@@ -11,18 +11,26 @@ from graia.saya import Saya
 from arclet.alconna.graia.saya import AlconnaBehaviour, AlconnaSchema
 from arclet.alconna.graia import Match, AlconnaDispatcher
 from arclet.alconna import Alconna
-import keyring
+from pathlib import Path
+import json5
 
 
 saya = create(Saya)
 create(AlconnaBehaviour)
+with open(Path(__file__).parent / 'account.json', 'r', encoding='utf-8') as f:
+    account = json5.load(f)
+
+qq = account['qq']
+verify_key = account['verify_key']
+port = account['port']
+
 
 bot = Ariadne(
     connection=config(
-        int(keyring.get_password("pgr", "qq")),
-        "mashiro",
-        HttpClientConfig(host="http://localhost:10250"),
-        WebsocketClientConfig(host="http://localhost:10250"),
+        qq,
+        verify_key,
+        HttpClientConfig(host=f"http://localhost:{port}"),
+        WebsocketClientConfig(host=f"http://localhost:{port}"),
     )
 )
 
