@@ -1,4 +1,5 @@
 '''bot主文件'''
+from pathlib import Path
 import pkgutil
 from creart import create
 from graia.ariadne.app import Ariadne
@@ -11,7 +12,7 @@ from graia.saya import Saya
 from arclet.alconna.graia.saya import AlconnaBehaviour, AlconnaSchema
 from arclet.alconna.graia import Match, AlconnaDispatcher
 from arclet.alconna import Alconna
-from pathlib import Path
+
 import json5
 
 
