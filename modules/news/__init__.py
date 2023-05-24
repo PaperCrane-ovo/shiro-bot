@@ -40,7 +40,7 @@ async def get_news():
 
 
 @channel.use(ListenerSchema(listening_events=[GroupMessage], decorators=[DetectPrefix('今日早报')]))
-async def handle_news(bot: Ariadne, group: Group, member: Member, source: Source):
+async def handle_news(bot: Ariadne, group: Group,source: Source):
     '''
     通过群消息请求早报
     '''
