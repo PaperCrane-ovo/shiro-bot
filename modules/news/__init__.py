@@ -52,7 +52,7 @@ async def handle_news(bot: Ariadne, group: Group,source: Source):
     return
 
 
-@channel.use(SchedulerSchema(timers.crontabify('0 7 * * * *')))  # 每天7点
+@channel.use(SchedulerSchema(timers.crontabify('0 7 * * * 0')))  # 每天7点
 async def auto_send_news(bot: Ariadne):
     '''
     定时发送早报
