@@ -1,6 +1,7 @@
 # 基于mirai和Graia Ariadne开发的shiro bot
 > 名字取自动漫《樱花庄的宠物女孩》中的 **椎名真白(Shiina Mashiro)** ,真白酱那么可爱,是吧是吧!
 
+# 目前由于腾讯风控比较严重,本项目暂缓开发.
 
 ![真白镇楼](./images/shiro.jpg)
 

@@ -2,13 +2,13 @@
 from typing import Annotated
 from graia.saya import Saya, Channel
 from graia.saya.builtins.broadcast.schema import ListenerSchema
-from graia.ariadne.entry import MentionMe, GroupMessage, Ariadne, MessageChain, Source, Group, Member, MatchTemplate, Plain, At, MemberPerm, MemberInfo
+from graia.ariadne.entry import MentionMe, GroupMessage, Ariadne, MessageChain, Source, Group, Member, MatchTemplate, Plain, At, MemberPerm, MemberInfo, DetectPrefix
 
 
 channel = Channel.current()
 
 
-@channel.use(ListenerSchema(listening_events=[GroupMessage], decorators=[MentionMe(), Plain('我要头衔')]))
+@channel.use(ListenerSchema(listening_events=[GroupMessage], decorators=[DetectPrefix('我要头衔')]))
 async def give_special_title(
         bot: Ariadne,
         group: Group,
